@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,7 +23,6 @@
 		54D639E11DC94F1B002ED6E6 /* img_email_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D639E01DC94F1B002ED6E6 /* img_email_icon.png */; };
 		54D639E31DC9AE29002ED6E6 /* email-logo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D639E21DC9AE29002ED6E6 /* email-logo4.png */; };
 		54D639E51DC9AFA5002ED6E6 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D639E41DC9AFA5002ED6E6 /* password.png */; };
-		54D639E91DC9B896002ED6E6 /* mybg2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 54D639E81DC9B896002ED6E6 /* mybg2.jpeg */; };
 		54D63A001DC9D887002ED6E6 /* mybgnew1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54D639F91DC9D887002ED6E6 /* mybgnew1.jpg */; };
 		54D63A011DC9D887002ED6E6 /* mybgnew2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54D639FA1DC9D887002ED6E6 /* mybgnew2.jpg */; };
 		54D63A021DC9D887002ED6E6 /* mybgnew3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 54D639FB1DC9D887002ED6E6 /* mybgnew3.jpeg */; };
@@ -87,7 +86,6 @@
 		54D639E01DC94F1B002ED6E6 /* img_email_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_email_icon.png; sourceTree = "<group>"; };
 		54D639E21DC9AE29002ED6E6 /* email-logo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email-logo4.png"; sourceTree = "<group>"; };
 		54D639E41DC9AFA5002ED6E6 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
-		54D639E81DC9B896002ED6E6 /* mybg2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mybg2.jpeg; sourceTree = "<group>"; };
 		54D639F91DC9D887002ED6E6 /* mybgnew1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mybgnew1.jpg; sourceTree = "<group>"; };
 		54D639FA1DC9D887002ED6E6 /* mybgnew2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mybgnew2.jpg; sourceTree = "<group>"; };
 		54D639FB1DC9D887002ED6E6 /* mybgnew3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mybgnew3.jpeg; sourceTree = "<group>"; };
@@ -174,7 +172,6 @@
 				5412BA031DC894E800C54681 /* LoginViewController.h */,
 				5412BA041DC894E800C54681 /* LoginViewController.m */,
 				549E8D1F1DC7DB1200A4F2E1 /* Main.storyboard */,
-				54D639E81DC9B896002ED6E6 /* mybg2.jpeg */,
 				54D639F91DC9D887002ED6E6 /* mybgnew1.jpg */,
 				54D639FA1DC9D887002ED6E6 /* mybgnew2.jpg */,
 				54D639FB1DC9D887002ED6E6 /* mybgnew3.jpeg */,
@@ -314,6 +311,7 @@
 				TargetAttributes = {
 					549E8D121DC7DB1200A4F2E1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = UX8S7P85XB;
 						SystemCapabilities = {
 							com.apple.Keychain = {
 								enabled = 1;
@@ -331,7 +329,7 @@
 				};
 			};
 			buildConfigurationList = 549E8D0E1DC7DB1200A4F2E1 /* Build configuration list for PBXProject "ArtsyCraftsy" */;
-			compatibilityVersion = "Xcode 8.0";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -373,7 +371,6 @@
 				54D63A0A1DC9D91E002ED6E6 /* mybgnew9.jpg in Resources */,
 				54D63A031DC9D887002ED6E6 /* mybgnew4.jpg in Resources */,
 				54D63A091DC9D91E002ED6E6 /* mybgnew8.jpeg in Resources */,
-				54D639E91DC9B896002ED6E6 /* mybg2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
