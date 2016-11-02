@@ -19,19 +19,20 @@
 		549E8D291DC7DB1200A4F2E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549E8D271DC7DB1200A4F2E1 /* LaunchScreen.storyboard */; };
 		549E8D341DC7DB1200A4F2E1 /* ArtsyCraftsyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 549E8D331DC7DB1200A4F2E1 /* ArtsyCraftsyTests.m */; };
 		549E8D3F1DC7DB1200A4F2E1 /* ArtsyCraftsyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 549E8D3E1DC7DB1200A4F2E1 /* ArtsyCraftsyUITests.m */; };
-		54D639DF1DC94F12002ED6E6 /* img_tstpassword_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D639DE1DC94F12002ED6E6 /* img_tstpassword_icon.png */; };
 		54D639E11DC94F1B002ED6E6 /* img_email_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D639E01DC94F1B002ED6E6 /* img_email_icon.png */; };
 		54D639E31DC9AE29002ED6E6 /* email-logo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D639E21DC9AE29002ED6E6 /* email-logo4.png */; };
 		54D639E51DC9AFA5002ED6E6 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D639E41DC9AFA5002ED6E6 /* password.png */; };
 		54D63A001DC9D887002ED6E6 /* mybgnew1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54D639F91DC9D887002ED6E6 /* mybgnew1.jpg */; };
 		54D63A011DC9D887002ED6E6 /* mybgnew2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54D639FA1DC9D887002ED6E6 /* mybgnew2.jpg */; };
-		54D63A021DC9D887002ED6E6 /* mybgnew3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 54D639FB1DC9D887002ED6E6 /* mybgnew3.jpeg */; };
 		54D63A031DC9D887002ED6E6 /* mybgnew4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54D639FC1DC9D887002ED6E6 /* mybgnew4.jpg */; };
 		54D63A041DC9D887002ED6E6 /* mybgnew5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54D639FD1DC9D887002ED6E6 /* mybgnew5.jpg */; };
 		54D63A051DC9D887002ED6E6 /* mybgnew6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 54D639FE1DC9D887002ED6E6 /* mybgnew6.jpeg */; };
 		54D63A061DC9D887002ED6E6 /* mybgnew7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 54D639FF1DC9D887002ED6E6 /* mybgnew7.jpeg */; };
-		54D63A091DC9D91E002ED6E6 /* mybgnew8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 54D63A071DC9D91E002ED6E6 /* mybgnew8.jpeg */; };
 		54D63A0A1DC9D91E002ED6E6 /* mybgnew9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54D63A081DC9D91E002ED6E6 /* mybgnew9.jpg */; };
+		54D63A1C1DC9FC8B002ED6E6 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D63A1B1DC9FC8B002ED6E6 /* SignupViewController.m */; };
+		54D63A1E1DCA40E9002ED6E6 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D63A1D1DCA40E9002ED6E6 /* back.png */; };
+		54D63A201DCA48B1002ED6E6 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D63A1F1DCA48B1002ED6E6 /* email.png */; };
+		54D63A221DCA491F002ED6E6 /* password.ico in Resources */ = {isa = PBXBuildFile; fileRef = 54D63A211DCA491F002ED6E6 /* password.ico */; };
 		66DB67779F672AA6373D0730 /* Pods_ArtsyCraftsyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B996A98315751093C70A7415 /* Pods_ArtsyCraftsyTests.framework */; };
 		AA0FE445725710F6EBA9DE29 /* Pods_ArtsyCraftsy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA5C9EB4CC52353E04B82CB /* Pods_ArtsyCraftsy.framework */; };
 		D085BF3845B20A5ECE8E8C2C /* Pods_ArtsyCraftsyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8F0176B4DCEFBAEBE56817 /* Pods_ArtsyCraftsyUITests.framework */; };
@@ -82,19 +83,21 @@
 		549E8D3E1DC7DB1200A4F2E1 /* ArtsyCraftsyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtsyCraftsyUITests.m; sourceTree = "<group>"; };
 		549E8D401DC7DB1200A4F2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54AEDB051DC8F72900F58185 /* ArtsyCraftsy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArtsyCraftsy.entitlements; sourceTree = "<group>"; };
-		54D639DE1DC94F12002ED6E6 /* img_tstpassword_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_tstpassword_icon.png; sourceTree = "<group>"; };
 		54D639E01DC94F1B002ED6E6 /* img_email_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_email_icon.png; sourceTree = "<group>"; };
 		54D639E21DC9AE29002ED6E6 /* email-logo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email-logo4.png"; sourceTree = "<group>"; };
 		54D639E41DC9AFA5002ED6E6 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
 		54D639F91DC9D887002ED6E6 /* mybgnew1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mybgnew1.jpg; sourceTree = "<group>"; };
 		54D639FA1DC9D887002ED6E6 /* mybgnew2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mybgnew2.jpg; sourceTree = "<group>"; };
-		54D639FB1DC9D887002ED6E6 /* mybgnew3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mybgnew3.jpeg; sourceTree = "<group>"; };
 		54D639FC1DC9D887002ED6E6 /* mybgnew4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mybgnew4.jpg; sourceTree = "<group>"; };
 		54D639FD1DC9D887002ED6E6 /* mybgnew5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mybgnew5.jpg; sourceTree = "<group>"; };
 		54D639FE1DC9D887002ED6E6 /* mybgnew6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mybgnew6.jpeg; sourceTree = "<group>"; };
 		54D639FF1DC9D887002ED6E6 /* mybgnew7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mybgnew7.jpeg; sourceTree = "<group>"; };
-		54D63A071DC9D91E002ED6E6 /* mybgnew8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mybgnew8.jpeg; sourceTree = "<group>"; };
 		54D63A081DC9D91E002ED6E6 /* mybgnew9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mybgnew9.jpg; sourceTree = "<group>"; };
+		54D63A1A1DC9FC8B002ED6E6 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		54D63A1B1DC9FC8B002ED6E6 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		54D63A1D1DCA40E9002ED6E6 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		54D63A1F1DCA48B1002ED6E6 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		54D63A211DCA491F002ED6E6 /* password.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = password.ico; sourceTree = "<group>"; };
 		55647C247A6D5A756B2DB5F5 /* Pods-ArtsyCraftsyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsyCraftsyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtsyCraftsyUITests/Pods-ArtsyCraftsyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7C1BEF6E32719A141023B9AB /* Pods-ArtsyCraftsyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsyCraftsyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtsyCraftsyTests/Pods-ArtsyCraftsyTests.release.xcconfig"; sourceTree = "<group>"; };
 		9A48E3A056FD55AB4DBA5E05 /* Pods-ArtsyCraftsyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsyCraftsyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtsyCraftsyUITests/Pods-ArtsyCraftsyUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -171,11 +174,14 @@
 				54047AEF1DC9100500FD550E /* CheckLoginViewController.m */,
 				5412BA031DC894E800C54681 /* LoginViewController.h */,
 				5412BA041DC894E800C54681 /* LoginViewController.m */,
+				54D63A1A1DC9FC8B002ED6E6 /* SignupViewController.h */,
+				54D63A1B1DC9FC8B002ED6E6 /* SignupViewController.m */,
+				54D63A1D1DCA40E9002ED6E6 /* back.png */,
+				54D63A211DCA491F002ED6E6 /* password.ico */,
+				54D63A1F1DCA48B1002ED6E6 /* email.png */,
 				549E8D1F1DC7DB1200A4F2E1 /* Main.storyboard */,
 				54D639F91DC9D887002ED6E6 /* mybgnew1.jpg */,
 				54D639FA1DC9D887002ED6E6 /* mybgnew2.jpg */,
-				54D639FB1DC9D887002ED6E6 /* mybgnew3.jpeg */,
-				54D63A071DC9D91E002ED6E6 /* mybgnew8.jpeg */,
 				54D63A081DC9D91E002ED6E6 /* mybgnew9.jpg */,
 				54D639FC1DC9D887002ED6E6 /* mybgnew4.jpg */,
 				54D639FD1DC9D887002ED6E6 /* mybgnew5.jpg */,
@@ -185,7 +191,6 @@
 				54D639E21DC9AE29002ED6E6 /* email-logo4.png */,
 				5412BA1A1DC8B23700C54681 /* artsy-4.jpg */,
 				54D639E01DC94F1B002ED6E6 /* img_email_icon.png */,
-				54D639DE1DC94F12002ED6E6 /* img_tstpassword_icon.png */,
 				5401514D1DC7E71C00CD7E69 /* mybg.jpg */,
 				549E8D271DC7DB1200A4F2E1 /* LaunchScreen.storyboard */,
 				5412BA201DC8C3A300C54681 /* GoogleService-Info.plist */,
@@ -355,22 +360,22 @@
 			files = (
 				54D63A051DC9D887002ED6E6 /* mybgnew6.jpeg in Resources */,
 				54D639E51DC9AFA5002ED6E6 /* password.png in Resources */,
+				54D63A1E1DCA40E9002ED6E6 /* back.png in Resources */,
 				549E8D291DC7DB1200A4F2E1 /* LaunchScreen.storyboard in Resources */,
 				54D63A011DC9D887002ED6E6 /* mybgnew2.jpg in Resources */,
 				54D63A001DC9D887002ED6E6 /* mybgnew1.jpg in Resources */,
+				54D63A221DCA491F002ED6E6 /* password.ico in Resources */,
 				5412BA1B1DC8B23700C54681 /* artsy-4.jpg in Resources */,
 				54D63A041DC9D887002ED6E6 /* mybgnew5.jpg in Resources */,
 				5401514E1DC7E71C00CD7E69 /* mybg.jpg in Resources */,
 				549E8D211DC7DB1200A4F2E1 /* Main.storyboard in Resources */,
-				54D63A021DC9D887002ED6E6 /* mybgnew3.jpeg in Resources */,
 				54D639E31DC9AE29002ED6E6 /* email-logo4.png in Resources */,
 				5412BA211DC8C3A300C54681 /* GoogleService-Info.plist in Resources */,
 				54D63A061DC9D887002ED6E6 /* mybgnew7.jpeg in Resources */,
 				54D639E11DC94F1B002ED6E6 /* img_email_icon.png in Resources */,
-				54D639DF1DC94F12002ED6E6 /* img_tstpassword_icon.png in Resources */,
+				54D63A201DCA48B1002ED6E6 /* email.png in Resources */,
 				54D63A0A1DC9D91E002ED6E6 /* mybgnew9.jpg in Resources */,
 				54D63A031DC9D887002ED6E6 /* mybgnew4.jpg in Resources */,
-				54D63A091DC9D91E002ED6E6 /* mybgnew8.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +538,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54D63A1C1DC9FC8B002ED6E6 /* SignupViewController.m in Sources */,
 				5412BA051DC894E800C54681 /* LoginViewController.m in Sources */,
 				549E8D241DC7DB1200A4F2E1 /* ArtsyCraftsy.xcdatamodeld in Sources */,
 				549E8D1B1DC7DB1200A4F2E1 /* AppDelegate.m in Sources */,
@@ -689,6 +695,7 @@
 					"$(PROJECT_DIR)/ArtsyCraftsy",
 				);
 				INFOPLIST_FILE = ArtsyCraftsy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = abhi.ArtsyCraftsy;
@@ -709,6 +716,7 @@
 					"$(PROJECT_DIR)/ArtsyCraftsy",
 				);
 				INFOPLIST_FILE = ArtsyCraftsy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = abhi.ArtsyCraftsy;

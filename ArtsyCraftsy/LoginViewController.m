@@ -35,6 +35,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 - (IBAction)loginAction:(id)sender {
     self.loginLabel.hidden = NO;
     self.progress.hidden = NO;
@@ -52,8 +54,6 @@
     //dispatch_semaphore_wait(sema, DISPATCH_TIME_FOREVER);
     //NSLog(@"end");
 }
-
-
 
 
 /*
