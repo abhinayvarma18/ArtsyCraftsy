@@ -22,6 +22,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [super viewDidLoad];
+    
+    // TODO(developer) Configure the sign-in button look/feel
+    
+    [GIDSignIn sharedInstance].uiDelegate = self;
+    
+    // Uncomment to automatically sign in the user.
+    //[[GIDSignIn sharedInstance] signInSilently];
+
+    
     self.progress.hidden = YES ;
     self.loginLabel.hidden = YES;
 }
