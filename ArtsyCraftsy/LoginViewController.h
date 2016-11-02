@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+@import Firebase;
 
-@interface LoginViewController : UIViewController
+@interface LoginViewController : UIViewController <UIScrollViewDelegate>
 
 @end
