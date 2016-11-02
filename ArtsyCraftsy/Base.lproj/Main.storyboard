@@ -43,7 +43,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mybgnew5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="P6t-Ik-M1P">
+                            <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mybgnew5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="P6t-Ik-M1P">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VWG-7X-Lwq">
@@ -58,7 +58,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ol-p3-9Nh">
                                 <rect key="frame" x="91" y="204" width="150" height="35"/>
-                                <color key="backgroundColor" red="0.65486105912707804" green="0.76659650259067358" blue="0.55033443983553731" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.86463730569948183" green="0.73264585639887436" blue="0.51355082610918457" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="X4t-ck-POn"/>
                                     <constraint firstAttribute="height" constant="35" id="kcb-6K-mBU"/>
@@ -73,7 +73,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2d-O2-49r">
                                 <rect key="frame" x="91" y="259" width="150" height="35"/>
-                                <color key="backgroundColor" red="0.65486105910000003" green="0.76659650260000001" blue="0.55033443979999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.86463730569999997" green="0.73264585640000002" blue="0.51355082610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="SJB-NL-AB3"/>
                                     <constraint firstAttribute="height" constant="35" id="d5U-GK-Gol"/>
@@ -85,7 +85,7 @@
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WKq-PK-vkf">
                                 <rect key="frame" x="81" y="101" width="268" height="25"/>
-                                <color key="textColor" red="0.90768664710000002" green="0.90845612050000002" blue="0.81501370949999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.018943912407595982" green="0.019045498704663211" blue="0.017271039130954412" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="23"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -101,7 +101,7 @@
                                     <constraint firstAttribute="width" constant="300" id="Wnt-Kc-KtI"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="29"/>
-                                <color key="textColor" red="0.42288698186528495" green="0.19311071508279037" blue="0.1987474341256045" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.65644237997176802" green="0.81106298575129532" blue="0.45798531213615046" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="artsy-4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0TK-JH-a8s">
@@ -140,7 +140,7 @@
                                     <constraint firstAttribute="width" constant="38" id="yqS-p9-dwe"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8bI-8a-VQt">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_tstpassword_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="8bI-8a-VQt">
                                 <rect key="frame" x="28" y="146" width="38" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="2bJ-jn-AJ3"/>
@@ -203,6 +203,7 @@
     <resources>
         <image name="artsy-4.jpg" width="1102" height="642"/>
         <image name="email-logo4.png" width="256" height="256"/>
+        <image name="img_tstpassword_icon.png" width="30" height="30"/>
         <image name="mybgnew5.jpg" width="1080" height="1920"/>
     </resources>
 </document>
