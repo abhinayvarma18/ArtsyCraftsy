@@ -1,39 +1,32 @@
 //
-//  CheckLoginViewController.m
+//  FeedsViewController.m
 //  ArtsyCraftsy
 //
-//  Created by Abhinay Varma on 01/11/16.
+//  Created by Abhinay Varma on 04/11/16.
 //  Copyright © 2016 Abhinay Varma. All rights reserved.
 //
 
-#import "CheckLoginViewController.h"
-@import FirebaseAuth;
-@import Firebase;
+#import "FeedsViewController.h"
+#import "SWRevealViewController.h"
 
-@interface CheckLoginViewController ()
+@interface FeedsViewController ()
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 
 @end
 
-@implementation CheckLoginViewController
+@implementation FeedsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    SWRevealViewController *revealViewController = self.revealViewController;
+    if ( revealViewController ){
+        [self.sidebarButton setTarget: self.revealViewController];
+        [self.sidebarButton setAction: @selector( revealToggle: )];
+        [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+    }
     // Do any additional setup after loading the view.
 }
 
-- (void) viewDidAppear:(BOOL)animated {
-    [[FIRDatabase database] reference];
-    [[FIRAuth auth] addAuthStateDidChangeListener:^(FIRAuth *_Nonnull auth,FIRUser *_Nullable user) {
-        if (user != nil) {
-            // User is signed in.
-            [self performSegueWithIdentifier:@"alreadyloggedin" sender:nil];
-        } else {
-            [self performSegueWithIdentifier:@"login" sender:nil];
-        }
-    }];
-
-
-}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

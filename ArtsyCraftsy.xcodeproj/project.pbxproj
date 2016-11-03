@@ -33,6 +33,9 @@
 		54D63A1E1DCA40E9002ED6E6 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D63A1D1DCA40E9002ED6E6 /* back.png */; };
 		54D63A201DCA48B1002ED6E6 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D63A1F1DCA48B1002ED6E6 /* email.png */; };
 		54D63A221DCA491F002ED6E6 /* password.ico in Resources */ = {isa = PBXBuildFile; fileRef = 54D63A211DCA491F002ED6E6 /* password.ico */; };
+		54D63A311DCBC2B8002ED6E6 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D63A301DCBC2B8002ED6E6 /* SWRevealViewController.m */; };
+		54D63A341DCBC4CB002ED6E6 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D63A331DCBC4CB002ED6E6 /* MenuTableViewController.m */; };
+		54D63A371DCBC6AA002ED6E6 /* FeedsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D63A361DCBC6AA002ED6E6 /* FeedsViewController.m */; };
 		66DB67779F672AA6373D0730 /* Pods_ArtsyCraftsyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B996A98315751093C70A7415 /* Pods_ArtsyCraftsyTests.framework */; };
 		AA0FE445725710F6EBA9DE29 /* Pods_ArtsyCraftsy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA5C9EB4CC52353E04B82CB /* Pods_ArtsyCraftsy.framework */; };
 		D085BF3845B20A5ECE8E8C2C /* Pods_ArtsyCraftsyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8F0176B4DCEFBAEBE56817 /* Pods_ArtsyCraftsyUITests.framework */; };
@@ -98,6 +101,12 @@
 		54D63A1D1DCA40E9002ED6E6 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		54D63A1F1DCA48B1002ED6E6 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
 		54D63A211DCA491F002ED6E6 /* password.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = password.ico; sourceTree = "<group>"; };
+		54D63A2F1DCBC2B8002ED6E6 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		54D63A301DCBC2B8002ED6E6 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		54D63A321DCBC4CB002ED6E6 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		54D63A331DCBC4CB002ED6E6 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
+		54D63A351DCBC6AA002ED6E6 /* FeedsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedsViewController.h; sourceTree = "<group>"; };
+		54D63A361DCBC6AA002ED6E6 /* FeedsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedsViewController.m; sourceTree = "<group>"; };
 		55647C247A6D5A756B2DB5F5 /* Pods-ArtsyCraftsyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsyCraftsyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtsyCraftsyUITests/Pods-ArtsyCraftsyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7C1BEF6E32719A141023B9AB /* Pods-ArtsyCraftsyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsyCraftsyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtsyCraftsyTests/Pods-ArtsyCraftsyTests.release.xcconfig"; sourceTree = "<group>"; };
 		9A48E3A056FD55AB4DBA5E05 /* Pods-ArtsyCraftsyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsyCraftsyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtsyCraftsyUITests/Pods-ArtsyCraftsyUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -167,6 +176,7 @@
 		549E8D151DC7DB1200A4F2E1 /* ArtsyCraftsy */ = {
 			isa = PBXGroup;
 			children = (
+				54D63A2E1DCBC298002ED6E6 /* SWRevealViewController */,
 				54AEDB051DC8F72900F58185 /* ArtsyCraftsy.entitlements */,
 				549E8D191DC7DB1200A4F2E1 /* AppDelegate.h */,
 				549E8D1A1DC7DB1200A4F2E1 /* AppDelegate.m */,
@@ -176,6 +186,12 @@
 				5412BA041DC894E800C54681 /* LoginViewController.m */,
 				54D63A1A1DC9FC8B002ED6E6 /* SignupViewController.h */,
 				54D63A1B1DC9FC8B002ED6E6 /* SignupViewController.m */,
+				54D63A2F1DCBC2B8002ED6E6 /* SWRevealViewController.h */,
+				54D63A301DCBC2B8002ED6E6 /* SWRevealViewController.m */,
+				54D63A321DCBC4CB002ED6E6 /* MenuTableViewController.h */,
+				54D63A331DCBC4CB002ED6E6 /* MenuTableViewController.m */,
+				54D63A351DCBC6AA002ED6E6 /* FeedsViewController.h */,
+				54D63A361DCBC6AA002ED6E6 /* FeedsViewController.m */,
 				54D63A1D1DCA40E9002ED6E6 /* back.png */,
 				54D63A211DCA491F002ED6E6 /* password.ico */,
 				54D63A1F1DCA48B1002ED6E6 /* email.png */,
@@ -225,6 +241,13 @@
 				549E8D401DC7DB1200A4F2E1 /* Info.plist */,
 			);
 			path = ArtsyCraftsyUITests;
+			sourceTree = "<group>";
+		};
+		54D63A2E1DCBC298002ED6E6 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SWRevealViewController;
 			sourceTree = "<group>";
 		};
 		F0B310540C72F498208E3AFC /* Pods */ = {
@@ -538,8 +561,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54D63A311DCBC2B8002ED6E6 /* SWRevealViewController.m in Sources */,
 				54D63A1C1DC9FC8B002ED6E6 /* SignupViewController.m in Sources */,
+				54D63A371DCBC6AA002ED6E6 /* FeedsViewController.m in Sources */,
 				5412BA051DC894E800C54681 /* LoginViewController.m in Sources */,
+				54D63A341DCBC4CB002ED6E6 /* MenuTableViewController.m in Sources */,
 				549E8D241DC7DB1200A4F2E1 /* ArtsyCraftsy.xcdatamodeld in Sources */,
 				549E8D1B1DC7DB1200A4F2E1 /* AppDelegate.m in Sources */,
 				549E8D181DC7DB1200A4F2E1 /* main.m in Sources */,
