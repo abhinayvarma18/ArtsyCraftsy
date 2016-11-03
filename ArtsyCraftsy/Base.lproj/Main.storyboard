@@ -82,7 +82,7 @@
                                     <color key="titleColor" red="0.90768664710937619" green="0.90845612046632129" blue="0.81501370948552365" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="AIY-GY-0dQ" kind="show" id="3cj-dy-oJB"/>
+                                    <segue destination="AIY-GY-0dQ" kind="show" identifier="signup" id="3cj-dy-oJB"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WKq-PK-vkf">
