@@ -9,6 +9,7 @@
 #import "LoginViewController.h"
 @import Firebase;
 @import FirebaseAuth;
+#import <GoogleSignIn/GoogleSignIn.h>
 
 @interface LoginViewController ()
 @property (weak, nonatomic) IBOutlet UIProgressView *progress;
@@ -34,6 +35,8 @@
     
     self.progress.hidden = YES ;
     self.loginLabel.hidden = YES;
+    [GIDSignIn sharedInstance].uiDelegate = self;
+
 }
 
 
@@ -45,25 +48,36 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (IBAction)loginAction:(id)sender {
-    self.loginLabel.hidden = NO;
-    self.progress.hidden = NO;
-    
-    //dispatch_semaphore_t sema = dispatch_semaphore_create(0);
-    NSString *user = [NSString stringWithFormat:@"%@", _userName.text];
-    NSString *pass = [NSString stringWithFormat:@"%@", _password.text];
-    [[FIRAuth auth] signInWithEmail:user password:pass completion:^(FIRUser * _Nullable user,NSError * _Nullable error) {
+
+
+- (BOOL) shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender {
+    if([identifier isEqualToString:@"qwe"]) {
+        self.loginLabel.hidden = NO;
+        self.progress.hidden = NO;
         
-        if (error)
-            NSLog(@"%@", error.localizedDescription);
-        else
-            NSLog(@"SUCCESS");
-    }];
+        //dispatch_semaphore_t sema = dispatch_semaphore_create(0);
+        NSString *user = [NSString stringWithFormat:@"%@", _userName.text];
+        NSString *pass = [NSString stringWithFormat:@"%@", _password.text];
+        [[FIRAuth auth] signInWithEmail:user password:pass completion:^(FIRUser * _Nullable user,NSError * _Nullable error) {
+            if (error){
+               UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Alert title" message:@"Unable to sign in" preferredStyle:UIAlertControllerStyleAlert];
+                
+                UIAlertAction* ok = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil];
+                [alertController addAction:ok];
+                [self presentViewController:alertController animated:YES completion:nil];
+                
+            } else {
+                [self performSegueWithIdentifier:@"qwe" sender:nil];
+            }
+        }];
+    }
+    else {
+        return YES;
+    }
     //dispatch_semaphore_wait(sema, DISPATCH_TIME_FOREVER);
     //NSLog(@"end");
+    return NO;
 }
-
-
 
 
 /*
