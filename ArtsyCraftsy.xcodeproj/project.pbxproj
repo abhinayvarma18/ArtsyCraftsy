@@ -3,19 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5401514E1DC7E71C00CD7E69 /* mybg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5401514D1DC7E71C00CD7E69 /* mybg.jpg */; };
+		54047AF01DC9100500FD550E /* CheckLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54047AEF1DC9100500FD550E /* CheckLoginViewController.m */; };
+		5412BA051DC894E800C54681 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5412BA041DC894E800C54681 /* LoginViewController.m */; };
+		5412BA1B1DC8B23700C54681 /* artsy-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5412BA1A1DC8B23700C54681 /* artsy-4.jpg */; };
+		5412BA211DC8C3A300C54681 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5412BA201DC8C3A300C54681 /* GoogleService-Info.plist */; };
 		549E8D181DC7DB1200A4F2E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 549E8D171DC7DB1200A4F2E1 /* main.m */; };
 		549E8D1B1DC7DB1200A4F2E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 549E8D1A1DC7DB1200A4F2E1 /* AppDelegate.m */; };
-		549E8D1E1DC7DB1200A4F2E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549E8D1D1DC7DB1200A4F2E1 /* ViewController.m */; };
 		549E8D211DC7DB1200A4F2E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549E8D1F1DC7DB1200A4F2E1 /* Main.storyboard */; };
 		549E8D241DC7DB1200A4F2E1 /* ArtsyCraftsy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 549E8D221DC7DB1200A4F2E1 /* ArtsyCraftsy.xcdatamodeld */; };
-		549E8D261DC7DB1200A4F2E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 549E8D251DC7DB1200A4F2E1 /* Assets.xcassets */; };
 		549E8D291DC7DB1200A4F2E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549E8D271DC7DB1200A4F2E1 /* LaunchScreen.storyboard */; };
 		549E8D341DC7DB1200A4F2E1 /* ArtsyCraftsyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 549E8D331DC7DB1200A4F2E1 /* ArtsyCraftsyTests.m */; };
 		549E8D3F1DC7DB1200A4F2E1 /* ArtsyCraftsyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 549E8D3E1DC7DB1200A4F2E1 /* ArtsyCraftsyUITests.m */; };
+		54D639E11DC94F1B002ED6E6 /* img_email_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D639E01DC94F1B002ED6E6 /* img_email_icon.png */; };
+		54D639E31DC9AE29002ED6E6 /* email-logo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D639E21DC9AE29002ED6E6 /* email-logo4.png */; };
+		54D639E51DC9AFA5002ED6E6 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D639E41DC9AFA5002ED6E6 /* password.png */; };
+		54D63A001DC9D887002ED6E6 /* mybgnew1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54D639F91DC9D887002ED6E6 /* mybgnew1.jpg */; };
+		54D63A011DC9D887002ED6E6 /* mybgnew2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54D639FA1DC9D887002ED6E6 /* mybgnew2.jpg */; };
+		54D63A031DC9D887002ED6E6 /* mybgnew4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54D639FC1DC9D887002ED6E6 /* mybgnew4.jpg */; };
+		54D63A041DC9D887002ED6E6 /* mybgnew5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54D639FD1DC9D887002ED6E6 /* mybgnew5.jpg */; };
+		54D63A051DC9D887002ED6E6 /* mybgnew6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 54D639FE1DC9D887002ED6E6 /* mybgnew6.jpeg */; };
+		54D63A061DC9D887002ED6E6 /* mybgnew7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 54D639FF1DC9D887002ED6E6 /* mybgnew7.jpeg */; };
+		54D63A0A1DC9D91E002ED6E6 /* mybgnew9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54D63A081DC9D91E002ED6E6 /* mybgnew9.jpg */; };
+		54D63A1C1DC9FC8B002ED6E6 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D63A1B1DC9FC8B002ED6E6 /* SignupViewController.m */; };
+		54D63A1E1DCA40E9002ED6E6 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D63A1D1DCA40E9002ED6E6 /* back.png */; };
+		54D63A201DCA48B1002ED6E6 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D63A1F1DCA48B1002ED6E6 /* email.png */; };
+		54D63A221DCA491F002ED6E6 /* password.ico in Resources */ = {isa = PBXBuildFile; fileRef = 54D63A211DCA491F002ED6E6 /* password.ico */; };
+		66DB67779F672AA6373D0730 /* Pods_ArtsyCraftsyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B996A98315751093C70A7415 /* Pods_ArtsyCraftsyTests.framework */; };
+		AA0FE445725710F6EBA9DE29 /* Pods_ArtsyCraftsy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA5C9EB4CC52353E04B82CB /* Pods_ArtsyCraftsy.framework */; };
+		D085BF3845B20A5ECE8E8C2C /* Pods_ArtsyCraftsyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8F0176B4DCEFBAEBE56817 /* Pods_ArtsyCraftsyUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,15 +56,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13011C72DB349EE032610C5F /* Pods-ArtsyCraftsy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsyCraftsy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtsyCraftsy/Pods-ArtsyCraftsy.debug.xcconfig"; sourceTree = "<group>"; };
+		1D8F0176B4DCEFBAEBE56817 /* Pods_ArtsyCraftsyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtsyCraftsyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA5C9EB4CC52353E04B82CB /* Pods_ArtsyCraftsy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtsyCraftsy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7767634EE7EB33CA2A9066 /* Pods-ArtsyCraftsyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsyCraftsyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtsyCraftsyTests/Pods-ArtsyCraftsyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		51EA4176D86F522F0FD3139B /* Pods-ArtsyCraftsy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsyCraftsy.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtsyCraftsy/Pods-ArtsyCraftsy.release.xcconfig"; sourceTree = "<group>"; };
+		5401514D1DC7E71C00CD7E69 /* mybg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mybg.jpg; sourceTree = "<group>"; };
+		54047AEE1DC9100500FD550E /* CheckLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckLoginViewController.h; sourceTree = "<group>"; };
+		54047AEF1DC9100500FD550E /* CheckLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckLoginViewController.m; sourceTree = "<group>"; };
+		5412BA031DC894E800C54681 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		5412BA041DC894E800C54681 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		5412BA1A1DC8B23700C54681 /* artsy-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "artsy-4.jpg"; sourceTree = "<group>"; };
+		5412BA201DC8C3A300C54681 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		549E8D131DC7DB1200A4F2E1 /* ArtsyCraftsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtsyCraftsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		549E8D171DC7DB1200A4F2E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		549E8D191DC7DB1200A4F2E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		549E8D1A1DC7DB1200A4F2E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		549E8D1C1DC7DB1200A4F2E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		549E8D1D1DC7DB1200A4F2E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		549E8D201DC7DB1200A4F2E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		549E8D231DC7DB1200A4F2E1 /* ArtsyCraftsy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArtsyCraftsy.xcdatamodel; sourceTree = "<group>"; };
-		549E8D251DC7DB1200A4F2E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		549E8D281DC7DB1200A4F2E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		549E8D2A1DC7DB1200A4F2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		549E8D2F1DC7DB1200A4F2E1 /* ArtsyCraftsyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtsyCraftsyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +82,26 @@
 		549E8D3A1DC7DB1200A4F2E1 /* ArtsyCraftsyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtsyCraftsyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		549E8D3E1DC7DB1200A4F2E1 /* ArtsyCraftsyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtsyCraftsyUITests.m; sourceTree = "<group>"; };
 		549E8D401DC7DB1200A4F2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54AEDB051DC8F72900F58185 /* ArtsyCraftsy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArtsyCraftsy.entitlements; sourceTree = "<group>"; };
+		54D639E01DC94F1B002ED6E6 /* img_email_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_email_icon.png; sourceTree = "<group>"; };
+		54D639E21DC9AE29002ED6E6 /* email-logo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email-logo4.png"; sourceTree = "<group>"; };
+		54D639E41DC9AFA5002ED6E6 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
+		54D639F91DC9D887002ED6E6 /* mybgnew1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mybgnew1.jpg; sourceTree = "<group>"; };
+		54D639FA1DC9D887002ED6E6 /* mybgnew2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mybgnew2.jpg; sourceTree = "<group>"; };
+		54D639FC1DC9D887002ED6E6 /* mybgnew4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mybgnew4.jpg; sourceTree = "<group>"; };
+		54D639FD1DC9D887002ED6E6 /* mybgnew5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mybgnew5.jpg; sourceTree = "<group>"; };
+		54D639FE1DC9D887002ED6E6 /* mybgnew6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mybgnew6.jpeg; sourceTree = "<group>"; };
+		54D639FF1DC9D887002ED6E6 /* mybgnew7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mybgnew7.jpeg; sourceTree = "<group>"; };
+		54D63A081DC9D91E002ED6E6 /* mybgnew9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mybgnew9.jpg; sourceTree = "<group>"; };
+		54D63A1A1DC9FC8B002ED6E6 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		54D63A1B1DC9FC8B002ED6E6 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		54D63A1D1DCA40E9002ED6E6 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		54D63A1F1DCA48B1002ED6E6 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		54D63A211DCA491F002ED6E6 /* password.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = password.ico; sourceTree = "<group>"; };
+		55647C247A6D5A756B2DB5F5 /* Pods-ArtsyCraftsyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsyCraftsyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtsyCraftsyUITests/Pods-ArtsyCraftsyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C1BEF6E32719A141023B9AB /* Pods-ArtsyCraftsyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsyCraftsyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtsyCraftsyTests/Pods-ArtsyCraftsyTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A48E3A056FD55AB4DBA5E05 /* Pods-ArtsyCraftsyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsyCraftsyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtsyCraftsyUITests/Pods-ArtsyCraftsyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B996A98315751093C70A7415 /* Pods_ArtsyCraftsyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtsyCraftsyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA0FE445725710F6EBA9DE29 /* Pods_ArtsyCraftsy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66DB67779F672AA6373D0730 /* Pods_ArtsyCraftsyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +125,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D085BF3845B20A5ECE8E8C2C /* Pods_ArtsyCraftsyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35572E39A298E12FDFDFCBC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FA5C9EB4CC52353E04B82CB /* Pods_ArtsyCraftsy.framework */,
+				B996A98315751093C70A7415 /* Pods_ArtsyCraftsyTests.framework */,
+				1D8F0176B4DCEFBAEBE56817 /* Pods_ArtsyCraftsyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		549E8D0A1DC7DB1200A4F2E1 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +149,8 @@
 				549E8D321DC7DB1200A4F2E1 /* ArtsyCraftsyTests */,
 				549E8D3D1DC7DB1200A4F2E1 /* ArtsyCraftsyUITests */,
 				549E8D141DC7DB1200A4F2E1 /* Products */,
+				F0B310540C72F498208E3AFC /* Pods */,
+				35572E39A298E12FDFDFCBC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,13 +167,33 @@
 		549E8D151DC7DB1200A4F2E1 /* ArtsyCraftsy */ = {
 			isa = PBXGroup;
 			children = (
+				54AEDB051DC8F72900F58185 /* ArtsyCraftsy.entitlements */,
 				549E8D191DC7DB1200A4F2E1 /* AppDelegate.h */,
 				549E8D1A1DC7DB1200A4F2E1 /* AppDelegate.m */,
-				549E8D1C1DC7DB1200A4F2E1 /* ViewController.h */,
-				549E8D1D1DC7DB1200A4F2E1 /* ViewController.m */,
+				54047AEE1DC9100500FD550E /* CheckLoginViewController.h */,
+				54047AEF1DC9100500FD550E /* CheckLoginViewController.m */,
+				5412BA031DC894E800C54681 /* LoginViewController.h */,
+				5412BA041DC894E800C54681 /* LoginViewController.m */,
+				54D63A1A1DC9FC8B002ED6E6 /* SignupViewController.h */,
+				54D63A1B1DC9FC8B002ED6E6 /* SignupViewController.m */,
+				54D63A1D1DCA40E9002ED6E6 /* back.png */,
+				54D63A211DCA491F002ED6E6 /* password.ico */,
+				54D63A1F1DCA48B1002ED6E6 /* email.png */,
 				549E8D1F1DC7DB1200A4F2E1 /* Main.storyboard */,
-				549E8D251DC7DB1200A4F2E1 /* Assets.xcassets */,
+				54D639F91DC9D887002ED6E6 /* mybgnew1.jpg */,
+				54D639FA1DC9D887002ED6E6 /* mybgnew2.jpg */,
+				54D63A081DC9D91E002ED6E6 /* mybgnew9.jpg */,
+				54D639FC1DC9D887002ED6E6 /* mybgnew4.jpg */,
+				54D639FD1DC9D887002ED6E6 /* mybgnew5.jpg */,
+				54D639FE1DC9D887002ED6E6 /* mybgnew6.jpeg */,
+				54D639FF1DC9D887002ED6E6 /* mybgnew7.jpeg */,
+				54D639E41DC9AFA5002ED6E6 /* password.png */,
+				54D639E21DC9AE29002ED6E6 /* email-logo4.png */,
+				5412BA1A1DC8B23700C54681 /* artsy-4.jpg */,
+				54D639E01DC94F1B002ED6E6 /* img_email_icon.png */,
+				5401514D1DC7E71C00CD7E69 /* mybg.jpg */,
 				549E8D271DC7DB1200A4F2E1 /* LaunchScreen.storyboard */,
+				5412BA201DC8C3A300C54681 /* GoogleService-Info.plist */,
 				549E8D2A1DC7DB1200A4F2E1 /* Info.plist */,
 				549E8D221DC7DB1200A4F2E1 /* ArtsyCraftsy.xcdatamodeld */,
 				549E8D161DC7DB1200A4F2E1 /* Supporting Files */,
@@ -143,6 +227,19 @@
 			path = ArtsyCraftsyUITests;
 			sourceTree = "<group>";
 		};
+		F0B310540C72F498208E3AFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13011C72DB349EE032610C5F /* Pods-ArtsyCraftsy.debug.xcconfig */,
+				51EA4176D86F522F0FD3139B /* Pods-ArtsyCraftsy.release.xcconfig */,
+				4F7767634EE7EB33CA2A9066 /* Pods-ArtsyCraftsyTests.debug.xcconfig */,
+				7C1BEF6E32719A141023B9AB /* Pods-ArtsyCraftsyTests.release.xcconfig */,
+				9A48E3A056FD55AB4DBA5E05 /* Pods-ArtsyCraftsyUITests.debug.xcconfig */,
+				55647C247A6D5A756B2DB5F5 /* Pods-ArtsyCraftsyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 549E8D431DC7DB1200A4F2E1 /* Build configuration list for PBXNativeTarget "ArtsyCraftsy" */;
 			buildPhases = (
+				05C19DDE3BDFA4FB164CCBDF /* [CP] Check Pods Manifest.lock */,
 				549E8D0F1DC7DB1200A4F2E1 /* Sources */,
 				549E8D101DC7DB1200A4F2E1 /* Frameworks */,
 				549E8D111DC7DB1200A4F2E1 /* Resources */,
+				2F3EFDDCF4CF9A7E4CF4D6F2 /* [CP] Embed Pods Frameworks */,
+				CD213A7BE264E4C96A92B938 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 549E8D461DC7DB1200A4F2E1 /* Build configuration list for PBXNativeTarget "ArtsyCraftsyTests" */;
 			buildPhases = (
+				ADCD6B275ED44422EFFFA3D0 /* [CP] Check Pods Manifest.lock */,
 				549E8D2B1DC7DB1200A4F2E1 /* Sources */,
 				549E8D2C1DC7DB1200A4F2E1 /* Frameworks */,
 				549E8D2D1DC7DB1200A4F2E1 /* Resources */,
+				A71F237A0356BB0C3282F081 /* [CP] Embed Pods Frameworks */,
+				3C864F525EBD5173279A932D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,9 +288,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 549E8D491DC7DB1200A4F2E1 /* Build configuration list for PBXNativeTarget "ArtsyCraftsyUITests" */;
 			buildPhases = (
+				1EF219241F236ACBC65D0533 /* [CP] Check Pods Manifest.lock */,
 				549E8D361DC7DB1200A4F2E1 /* Sources */,
 				549E8D371DC7DB1200A4F2E1 /* Frameworks */,
 				549E8D381DC7DB1200A4F2E1 /* Resources */,
+				96E00281EE4A2C1AE2D5AA32 /* [CP] Embed Pods Frameworks */,
+				8A2E5956898F4DABD10E0FF4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,6 +316,12 @@
 				TargetAttributes = {
 					549E8D121DC7DB1200A4F2E1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = UX8S7P85XB;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					549E8D2E1DC7DB1200A4F2E1 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -222,7 +334,7 @@
 				};
 			};
 			buildConfigurationList = 549E8D0E1DC7DB1200A4F2E1 /* Build configuration list for PBXProject "ArtsyCraftsy" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -246,9 +358,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54D63A051DC9D887002ED6E6 /* mybgnew6.jpeg in Resources */,
+				54D639E51DC9AFA5002ED6E6 /* password.png in Resources */,
+				54D63A1E1DCA40E9002ED6E6 /* back.png in Resources */,
 				549E8D291DC7DB1200A4F2E1 /* LaunchScreen.storyboard in Resources */,
-				549E8D261DC7DB1200A4F2E1 /* Assets.xcassets in Resources */,
+				54D63A011DC9D887002ED6E6 /* mybgnew2.jpg in Resources */,
+				54D63A001DC9D887002ED6E6 /* mybgnew1.jpg in Resources */,
+				54D63A221DCA491F002ED6E6 /* password.ico in Resources */,
+				5412BA1B1DC8B23700C54681 /* artsy-4.jpg in Resources */,
+				54D63A041DC9D887002ED6E6 /* mybgnew5.jpg in Resources */,
+				5401514E1DC7E71C00CD7E69 /* mybg.jpg in Resources */,
 				549E8D211DC7DB1200A4F2E1 /* Main.storyboard in Resources */,
+				54D639E31DC9AE29002ED6E6 /* email-logo4.png in Resources */,
+				5412BA211DC8C3A300C54681 /* GoogleService-Info.plist in Resources */,
+				54D63A061DC9D887002ED6E6 /* mybgnew7.jpeg in Resources */,
+				54D639E11DC94F1B002ED6E6 /* img_email_icon.png in Resources */,
+				54D63A201DCA48B1002ED6E6 /* email.png in Resources */,
+				54D63A0A1DC9D91E002ED6E6 /* mybgnew9.jpg in Resources */,
+				54D63A031DC9D887002ED6E6 /* mybgnew4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,15 +395,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05C19DDE3BDFA4FB164CCBDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1EF219241F236ACBC65D0533 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2F3EFDDCF4CF9A7E4CF4D6F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtsyCraftsy/Pods-ArtsyCraftsy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C864F525EBD5173279A932D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtsyCraftsyTests/Pods-ArtsyCraftsyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A2E5956898F4DABD10E0FF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtsyCraftsyUITests/Pods-ArtsyCraftsyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96E00281EE4A2C1AE2D5AA32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtsyCraftsyUITests/Pods-ArtsyCraftsyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A71F237A0356BB0C3282F081 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtsyCraftsyTests/Pods-ArtsyCraftsyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADCD6B275ED44422EFFFA3D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD213A7BE264E4C96A92B938 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtsyCraftsy/Pods-ArtsyCraftsy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		549E8D0F1DC7DB1200A4F2E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54D63A1C1DC9FC8B002ED6E6 /* SignupViewController.m in Sources */,
+				5412BA051DC894E800C54681 /* LoginViewController.m in Sources */,
 				549E8D241DC7DB1200A4F2E1 /* ArtsyCraftsy.xcdatamodeld in Sources */,
-				549E8D1E1DC7DB1200A4F2E1 /* ViewController.m in Sources */,
 				549E8D1B1DC7DB1200A4F2E1 /* AppDelegate.m in Sources */,
 				549E8D181DC7DB1200A4F2E1 /* main.m in Sources */,
+				54047AF01DC9100500FD550E /* CheckLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,10 +684,20 @@
 		};
 		549E8D441DC7DB1200A4F2E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13011C72DB349EE032610C5F /* Pods-ArtsyCraftsy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ArtsyCraftsy/ArtsyCraftsy.entitlements;
+				DEVELOPMENT_TEAM = UX8S7P85XB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ArtsyCraftsy",
+				);
 				INFOPLIST_FILE = ArtsyCraftsy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = abhi.ArtsyCraftsy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -428,10 +705,20 @@
 		};
 		549E8D451DC7DB1200A4F2E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51EA4176D86F522F0FD3139B /* Pods-ArtsyCraftsy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ArtsyCraftsy/ArtsyCraftsy.entitlements;
+				DEVELOPMENT_TEAM = UX8S7P85XB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ArtsyCraftsy",
+				);
 				INFOPLIST_FILE = ArtsyCraftsy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = abhi.ArtsyCraftsy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -439,6 +726,7 @@
 		};
 		549E8D471DC7DB1200A4F2E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F7767634EE7EB33CA2A9066 /* Pods-ArtsyCraftsyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ArtsyCraftsyTests/Info.plist;
@@ -451,6 +739,7 @@
 		};
 		549E8D481DC7DB1200A4F2E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C1BEF6E32719A141023B9AB /* Pods-ArtsyCraftsyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ArtsyCraftsyTests/Info.plist;
@@ -463,6 +752,7 @@
 		};
 		549E8D4A1DC7DB1200A4F2E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A48E3A056FD55AB4DBA5E05 /* Pods-ArtsyCraftsyUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ArtsyCraftsyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -474,6 +764,7 @@
 		};
 		549E8D4B1DC7DB1200A4F2E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55647C247A6D5A756B2DB5F5 /* Pods-ArtsyCraftsyUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ArtsyCraftsyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -502,6 +793,7 @@
 				549E8D451DC7DB1200A4F2E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		549E8D461DC7DB1200A4F2E1 /* Build configuration list for PBXNativeTarget "ArtsyCraftsyTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +802,7 @@
 				549E8D481DC7DB1200A4F2E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		549E8D491DC7DB1200A4F2E1 /* Build configuration list for PBXNativeTarget "ArtsyCraftsyUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +811,7 @@
 				549E8D4B1DC7DB1200A4F2E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -7,6 +7,8 @@
 //
 
 #import "CheckLoginViewController.h"
+@import FirebaseAuth;
+@import Firebase;
 
 @interface CheckLoginViewController ()
 
@@ -19,6 +21,18 @@
     // Do any additional setup after loading the view.
 }
 
+- (void) viewDidAppear:(BOOL)animated {
+    [[FIRDatabase database] reference];
+    [[FIRAuth auth] addAuthStateDidChangeListener:^(FIRAuth *_Nonnull auth,FIRUser *_Nullable user) {
+        if (user != nil) {
+            // User is signed in.
+        } else {
+            [self performSegueWithIdentifier:@"login" sender:nil];
+        }
+    }];
+
+
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
