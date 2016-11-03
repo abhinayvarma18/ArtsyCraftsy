@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 @import Firebase;
+#import <GoogleSignIn/GoogleSignIn.h>
 
-@interface LoginViewController : UIViewController <UIScrollViewDelegate>
+
+@interface LoginViewController : UIViewController <UIScrollViewDelegate, GIDSignInUIDelegate>
 
 @end
