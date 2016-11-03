@@ -11,6 +11,7 @@ pod 'Firebase/Database'
 pod 'Firebase/Auth'
 pod 'Firebase/Analytics'
 pod 'Firebase/AdMob'
+pod 'GoogleSignIn'
   target 'ArtsyCraftsyTests' do
     inherit! :search_paths
     # Pods for testing
