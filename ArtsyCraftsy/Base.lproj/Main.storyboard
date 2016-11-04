@@ -456,6 +456,9 @@
                     </tableView>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <segue destination="5dk-Ux-Ok2" kind="show" identifier="logout" id="xhq-sJ-WmV"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o3b-hv-pX7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -682,7 +685,7 @@
         <image name="password.ico" width="256" height="256"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="tNC-7K-xdb"/>
+        <segue reference="xhq-sJ-WmV"/>
         <segue reference="eNn-8W-xsb"/>
     </inferredMetricsTieBreakers>
 </document>
