@@ -8,6 +8,7 @@
 
 #import "MenuTableViewController.h"
 #import "SWRevealViewController.h"
+@import FirebaseAuth;
 
 
 @interface MenuTableViewController ()
@@ -49,6 +50,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return [menuItems count];
 }
+
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -102,5 +104,15 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if(indexPath.row == 5) {
+        NSError *error;
+        [[FIRAuth auth] signOut:&error];
+        if (!error) {
+            [self performSegueWithIdentifier:@"logout" sender:nil];
+        }
+    }
+}
 
 @end
