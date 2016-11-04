@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010CA4CC1DCB7F5F00488671 /* StoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010CA4CB1DCB7F5F00488671 /* StoriesViewController.m */; settings = {ASSET_TAGS = (); }; };
 		5401514E1DC7E71C00CD7E69 /* mybg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5401514D1DC7E71C00CD7E69 /* mybg.jpg */; };
 		54047AF01DC9100500FD550E /* CheckLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54047AEF1DC9100500FD550E /* CheckLoginViewController.m */; };
 		5412BA051DC894E800C54681 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5412BA041DC894E800C54681 /* LoginViewController.m */; };
@@ -56,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		010CA4CA1DCB7F5F00488671 /* StoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoriesViewController.h; sourceTree = "<group>"; };
+		010CA4CB1DCB7F5F00488671 /* StoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoriesViewController.m; sourceTree = "<group>"; };
 		13011C72DB349EE032610C5F /* Pods-ArtsyCraftsy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsyCraftsy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtsyCraftsy/Pods-ArtsyCraftsy.debug.xcconfig"; sourceTree = "<group>"; };
 		1D8F0176B4DCEFBAEBE56817 /* Pods_ArtsyCraftsyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtsyCraftsyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA5C9EB4CC52353E04B82CB /* Pods_ArtsyCraftsy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtsyCraftsy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -197,6 +200,8 @@
 				549E8D2A1DC7DB1200A4F2E1 /* Info.plist */,
 				549E8D221DC7DB1200A4F2E1 /* ArtsyCraftsy.xcdatamodeld */,
 				549E8D161DC7DB1200A4F2E1 /* Supporting Files */,
+				010CA4CA1DCB7F5F00488671 /* StoriesViewController.h */,
+				010CA4CB1DCB7F5F00488671 /* StoriesViewController.m */,
 			);
 			path = ArtsyCraftsy;
 			sourceTree = "<group>";
@@ -542,6 +547,7 @@
 				5412BA051DC894E800C54681 /* LoginViewController.m in Sources */,
 				549E8D241DC7DB1200A4F2E1 /* ArtsyCraftsy.xcdatamodeld in Sources */,
 				549E8D1B1DC7DB1200A4F2E1 /* AppDelegate.m in Sources */,
+				010CA4CC1DCB7F5F00488671 /* StoriesViewController.m in Sources */,
 				549E8D181DC7DB1200A4F2E1 /* main.m in Sources */,
 				54047AF01DC9100500FD550E /* CheckLoginViewController.m in Sources */,
 			);
