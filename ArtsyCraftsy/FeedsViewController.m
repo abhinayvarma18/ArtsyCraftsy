@@ -101,7 +101,7 @@
 //            recipeImageView.backgroundColor = [UIColor blackColor];
 //        }
         recipeImageView.image = [UIImage imageNamed:[recipeImages objectAtIndex:indexPath.row]];
-        recipeImageView.alpha = 0.5;
+//        recipeImageView.alpha = 0.5;
     }
 
     
