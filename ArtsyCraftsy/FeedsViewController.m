@@ -75,10 +75,57 @@
         NSDictionary *story = stories[indexPath.row];
         title.text = [story objectForKey:@"text"];
         }
+
+//        UIImage *image = [self blurredImageWithImage:[UIImage imageNamed:[recipeImages objectAtIndex:indexPath.row]]];
+//        recipeImageView.image = image;
+        
+//        if (!UIAccessibilityIsReduceTransparencyEnabled()) {
+//            recipeImageView.backgroundColor = [UIColor clearColor];
+//            
+//            // create blur effect
+//            UIBlurEffect *blur = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
+//            
+//            // create vibrancy effect
+//            UIVibrancyEffect *vibrancy = [UIVibrancyEffect effectForBlurEffect:blur];
+//            
+//            // add blur to an effect view
+//            UIVisualEffectView *effectView = [[UIVisualEffectView alloc]initWithEffect:blur];
+//            effectView.frame = self.view.frame;
+//            
+//            // add vibrancy to yet another effect view
+//            UIVisualEffectView *vibrantView = [[UIVisualEffectView alloc]initWithEffect:vibrancy];
+//            vibrantView.frame = self.view.frame;
+//            [recipeImageView addSubview:effectView];
+//            [recipeImageView addSubview:vibrantView];
+//        } else {
+//            recipeImageView.backgroundColor = [UIColor blackColor];
+//        }
+        recipeImageView.image = [UIImage imageNamed:[recipeImages objectAtIndex:indexPath.row]];
+        recipeImageView.alpha = 0.5;
     }
-    recipeImageView.image = [UIImage imageNamed:[recipeImages objectAtIndex:indexPath.row]];
+
     
     return cell;
+}
+
+- (UIImage *)blurredImageWithImage:(UIImage *)sourceImage{
+    
+    //  Create our blurred image
+    CIContext *context = [CIContext contextWithOptions:nil];
+    CIImage *inputImage = [CIImage imageWithCGImage:sourceImage.CGImage];
+    
+    //  Setting up Gaussian Blur
+    CIFilter *filter = [CIFilter filterWithName:@"CIGaussianBlur"];
+    [filter setValue:inputImage forKey:kCIInputImageKey];
+    [filter setValue:[NSNumber numberWithFloat:15.0f] forKey:@"inputRadius"];
+    CIImage *result = [filter valueForKey:kCIOutputImageKey];
+    
+    /*  CIGaussianBlur has a tendency to shrink the image a little, this ensures it matches
+     *  up exactly to the bounds of our original image */
+    CGImageRef cgImage = [context createCGImage:result fromRect:[inputImage extent]];
+    
+    UIImage *retVal = [UIImage imageWithCGImage:cgImage];
+    return retVal;
 }
 
 /*
