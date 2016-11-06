@@ -279,7 +279,7 @@
                                             <color key="textColor" red="0.43364429675032884" green="0.43535779231271604" blue="0.45108778293654828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9Ka-e7-fY0">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="feeds.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Ka-e7-fY0">
                                             <rect key="frame" x="23" y="0.0" width="79" height="43"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="79" id="4IJ-fg-Xgp"/>
@@ -316,7 +316,7 @@
                                             <color key="textColor" red="0.4336442968" green="0.43535779229999999" blue="0.45108778290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rME-eN-Rma">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="classroom.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="rME-eN-Rma">
                                             <rect key="frame" x="23" y="4" width="79" height="44"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="79" id="QP7-sD-2Zj"/>
@@ -354,7 +354,7 @@
                                             <color key="textColor" red="0.4336442968" green="0.43535779229999999" blue="0.45108778290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="g2U-gQ-Ulg">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="products.png" translatesAutoresizingMaskIntoConstraints="NO" id="g2U-gQ-Ulg">
                                             <rect key="frame" x="23" y="0.0" width="79" height="44"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="79" id="LKP-if-NXs"/>
@@ -390,7 +390,7 @@
                                             <color key="textColor" red="0.4336442968" green="0.43535779229999999" blue="0.45108778290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="unF-3k-6Vb">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bookmark.png" translatesAutoresizingMaskIntoConstraints="NO" id="unF-3k-6Vb">
                                             <rect key="frame" x="23" y="0.0" width="79" height="44"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="79" id="NOD-BK-PX6"/>
@@ -427,7 +427,7 @@
                                             <color key="textColor" red="0.4336442968" green="0.43535779229999999" blue="0.45108778290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cit-tL-aYS">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cart.png" translatesAutoresizingMaskIntoConstraints="NO" id="cit-tL-aYS">
                                             <rect key="frame" x="23" y="0.0" width="79" height="44"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="79" id="mOa-Ih-2aN"/>
@@ -995,11 +995,16 @@
     <resources>
         <image name="artsycraftsy.jpg" width="1300" height="1300"/>
         <image name="back.png" width="500" height="500"/>
+        <image name="bookmark.png" width="313" height="313"/>
+        <image name="cart.png" width="640" height="576"/>
+        <image name="classroom.jpg" width="291" height="286"/>
         <image name="email.png" width="512" height="512"/>
+        <image name="feeds.png" width="704" height="720"/>
         <image name="menu.png" width="22" height="22"/>
         <image name="mybgnew7.jpeg" width="168" height="300"/>
         <image name="password.ico" width="256" height="256"/>
         <image name="playingChild.jpg" width="953" height="715"/>
+        <image name="products.png" width="413" height="413"/>
         <image name="profileUpload.gif" width="327" height="325"/>
     </resources>
     <inferredMetricsTieBreakers>

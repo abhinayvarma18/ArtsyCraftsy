@@ -44,6 +44,11 @@
 		54EBF5B01DCFB64300CD9EE8 /* coollogo_com-132964176.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EBF5AF1DCFB64300CD9EE8 /* coollogo_com-132964176.png */; };
 		54EBF5B41DCFC1A000CD9EE8 /* artsycraftsy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54EBF5B31DCFC1A000CD9EE8 /* artsycraftsy.jpg */; };
 		54EBF5B61DCFCA9D00CD9EE8 /* profileUpload.gif in Resources */ = {isa = PBXBuildFile; fileRef = 54EBF5B51DCFCA9D00CD9EE8 /* profileUpload.gif */; };
+		54EBF5B81DCFD82700CD9EE8 /* feeds.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EBF5B71DCFD82700CD9EE8 /* feeds.png */; };
+		54EBF5BA1DCFD86D00CD9EE8 /* classroom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54EBF5B91DCFD86D00CD9EE8 /* classroom.jpg */; };
+		54EBF5BC1DCFD8E000CD9EE8 /* products.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EBF5BB1DCFD8E000CD9EE8 /* products.png */; };
+		54EBF5BE1DCFD94E00CD9EE8 /* bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EBF5BD1DCFD94E00CD9EE8 /* bookmark.png */; };
+		54EBF5C21DCFD9E600CD9EE8 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EBF5C11DCFD9E600CD9EE8 /* cart.png */; };
 		66DB67779F672AA6373D0730 /* Pods_ArtsyCraftsyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B996A98315751093C70A7415 /* Pods_ArtsyCraftsyTests.framework */; };
 		AA0FE445725710F6EBA9DE29 /* Pods_ArtsyCraftsy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA5C9EB4CC52353E04B82CB /* Pods_ArtsyCraftsy.framework */; };
 		D085BF3845B20A5ECE8E8C2C /* Pods_ArtsyCraftsyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8F0176B4DCEFBAEBE56817 /* Pods_ArtsyCraftsyUITests.framework */; };
@@ -125,6 +130,11 @@
 		54EBF5AF1DCFB64300CD9EE8 /* coollogo_com-132964176.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coollogo_com-132964176.png"; sourceTree = "<group>"; };
 		54EBF5B31DCFC1A000CD9EE8 /* artsycraftsy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = artsycraftsy.jpg; sourceTree = "<group>"; };
 		54EBF5B51DCFCA9D00CD9EE8 /* profileUpload.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = profileUpload.gif; sourceTree = "<group>"; };
+		54EBF5B71DCFD82700CD9EE8 /* feeds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feeds.png; sourceTree = "<group>"; };
+		54EBF5B91DCFD86D00CD9EE8 /* classroom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = classroom.jpg; sourceTree = "<group>"; };
+		54EBF5BB1DCFD8E000CD9EE8 /* products.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = products.png; sourceTree = "<group>"; };
+		54EBF5BD1DCFD94E00CD9EE8 /* bookmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookmark.png; sourceTree = "<group>"; };
+		54EBF5C11DCFD9E600CD9EE8 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
 		55647C247A6D5A756B2DB5F5 /* Pods-ArtsyCraftsyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsyCraftsyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtsyCraftsyUITests/Pods-ArtsyCraftsyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7C1BEF6E32719A141023B9AB /* Pods-ArtsyCraftsyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsyCraftsyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtsyCraftsyTests/Pods-ArtsyCraftsyTests.release.xcconfig"; sourceTree = "<group>"; };
 		9A48E3A056FD55AB4DBA5E05 /* Pods-ArtsyCraftsyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsyCraftsyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtsyCraftsyUITests/Pods-ArtsyCraftsyUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -215,7 +225,12 @@
 				54EBF59C1DCF820D00CD9EE8 /* ClassroomViewController.h */,
 				54EBF59D1DCF820D00CD9EE8 /* ClassroomViewController.m */,
 				549E8D1F1DC7DB1200A4F2E1 /* Main.storyboard */,
+				54EBF5B91DCFD86D00CD9EE8 /* classroom.jpg */,
+				54EBF5C11DCFD9E600CD9EE8 /* cart.png */,
+				54EBF5BB1DCFD8E000CD9EE8 /* products.png */,
+				54EBF5BD1DCFD94E00CD9EE8 /* bookmark.png */,
 				54EBF5A71DCFA92800CD9EE8 /* cooltext214327983556379.png */,
+				54EBF5B71DCFD82700CD9EE8 /* feeds.png */,
 				54EBF5A91DCFACF100CD9EE8 /* images.jpeg */,
 				54EBF5B31DCFC1A000CD9EE8 /* artsycraftsy.jpg */,
 				54EBF5B51DCFCA9D00CD9EE8 /* profileUpload.gif */,
@@ -413,6 +428,8 @@
 				54EBF5AA1DCFACF100CD9EE8 /* images.jpeg in Resources */,
 				54EBF5B41DCFC1A000CD9EE8 /* artsycraftsy.jpg in Resources */,
 				54EBF5B01DCFB64300CD9EE8 /* coollogo_com-132964176.png in Resources */,
+				54EBF5C21DCFD9E600CD9EE8 /* cart.png in Resources */,
+				54EBF5BE1DCFD94E00CD9EE8 /* bookmark.png in Resources */,
 				54D639E51DC9AFA5002ED6E6 /* password.png in Resources */,
 				54EBF58F1DCF718600CD9EE8 /* LoginCompositeBackground.png in Resources */,
 				54EBF5A61DCFA3CC00CD9EE8 /* cooltext214325258707263.png in Resources */,
@@ -422,14 +439,17 @@
 				54EBF5991DCF810600CD9EE8 /* menu.png in Resources */,
 				54EBF5A21DCF8EC800CD9EE8 /* playingChild.jpg in Resources */,
 				54D63A221DCA491F002ED6E6 /* password.ico in Resources */,
+				54EBF5BC1DCFD8E000CD9EE8 /* products.png in Resources */,
 				54D63A041DC9D887002ED6E6 /* mybgnew5.jpg in Resources */,
 				549E8D211DC7DB1200A4F2E1 /* Main.storyboard in Resources */,
+				54EBF5B81DCFD82700CD9EE8 /* feeds.png in Resources */,
 				54EBF5951DCF74A700CD9EE8 /* background-learner.jpg in Resources */,
 				5412BA211DC8C3A300C54681 /* GoogleService-Info.plist in Resources */,
 				54D63A061DC9D887002ED6E6 /* mybgnew7.jpeg in Resources */,
 				54EBF5B61DCFCA9D00CD9EE8 /* profileUpload.gif in Resources */,
 				54EBF5931DCF72D900CD9EE8 /* backgroundmy4.jpg in Resources */,
 				54EBF5A81DCFA92800CD9EE8 /* cooltext214327983556379.png in Resources */,
+				54EBF5BA1DCFD86D00CD9EE8 /* classroom.jpg in Resources */,
 				54D63A201DCA48B1002ED6E6 /* email.png in Resources */,
 				54EBF5A41DCF90D400CD9EE8 /* baloons.png in Resources */,
 			);
