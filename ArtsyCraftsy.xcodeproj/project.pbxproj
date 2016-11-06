@@ -36,6 +36,13 @@
 		54D63A311DCBC2B8002ED6E6 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D63A301DCBC2B8002ED6E6 /* SWRevealViewController.m */; };
 		54D63A341DCBC4CB002ED6E6 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D63A331DCBC4CB002ED6E6 /* MenuTableViewController.m */; };
 		54D63A371DCBC6AA002ED6E6 /* FeedsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D63A361DCBC6AA002ED6E6 /* FeedsViewController.m */; };
+		54EBF57B1DCC821F00CD9EE8 /* FeedsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EBF57A1DCC821F00CD9EE8 /* FeedsCollectionViewController.m */; };
+		54EBF57D1DCCACD400CD9EE8 /* feeds.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EBF57C1DCCACD400CD9EE8 /* feeds.png */; };
+		54EBF58D1DCCDC4500CD9EE8 /* UploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EBF58C1DCCDC4500CD9EE8 /* UploadViewController.m */; };
+		54EBF58F1DCF718600CD9EE8 /* LoginCompositeBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EBF58E1DCF718600CD9EE8 /* LoginCompositeBackground.png */; };
+		54EBF5911DCF71C500CD9EE8 /* LoginMain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54EBF5901DCF71C500CD9EE8 /* LoginMain.jpg */; };
+		54EBF5931DCF72D900CD9EE8 /* backgroundmy4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54EBF5921DCF72D900CD9EE8 /* backgroundmy4.jpg */; };
+		54EBF5951DCF74A700CD9EE8 /* background-learner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54EBF5941DCF74A700CD9EE8 /* background-learner.jpg */; };
 		66DB67779F672AA6373D0730 /* Pods_ArtsyCraftsyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B996A98315751093C70A7415 /* Pods_ArtsyCraftsyTests.framework */; };
 		AA0FE445725710F6EBA9DE29 /* Pods_ArtsyCraftsy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA5C9EB4CC52353E04B82CB /* Pods_ArtsyCraftsy.framework */; };
 		D085BF3845B20A5ECE8E8C2C /* Pods_ArtsyCraftsyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8F0176B4DCEFBAEBE56817 /* Pods_ArtsyCraftsyUITests.framework */; };
@@ -107,6 +114,15 @@
 		54D63A331DCBC4CB002ED6E6 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
 		54D63A351DCBC6AA002ED6E6 /* FeedsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedsViewController.h; sourceTree = "<group>"; };
 		54D63A361DCBC6AA002ED6E6 /* FeedsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedsViewController.m; sourceTree = "<group>"; };
+		54EBF5791DCC821F00CD9EE8 /* FeedsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedsCollectionViewController.h; sourceTree = "<group>"; };
+		54EBF57A1DCC821F00CD9EE8 /* FeedsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedsCollectionViewController.m; sourceTree = "<group>"; };
+		54EBF57C1DCCACD400CD9EE8 /* feeds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feeds.png; sourceTree = "<group>"; };
+		54EBF58B1DCCDC4500CD9EE8 /* UploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadViewController.h; sourceTree = "<group>"; };
+		54EBF58C1DCCDC4500CD9EE8 /* UploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadViewController.m; sourceTree = "<group>"; };
+		54EBF58E1DCF718600CD9EE8 /* LoginCompositeBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoginCompositeBackground.png; sourceTree = "<group>"; };
+		54EBF5901DCF71C500CD9EE8 /* LoginMain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LoginMain.jpg; sourceTree = "<group>"; };
+		54EBF5921DCF72D900CD9EE8 /* backgroundmy4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundmy4.jpg; sourceTree = "<group>"; };
+		54EBF5941DCF74A700CD9EE8 /* background-learner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background-learner.jpg"; sourceTree = "<group>"; };
 		55647C247A6D5A756B2DB5F5 /* Pods-ArtsyCraftsyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsyCraftsyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtsyCraftsyUITests/Pods-ArtsyCraftsyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7C1BEF6E32719A141023B9AB /* Pods-ArtsyCraftsyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsyCraftsyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtsyCraftsyTests/Pods-ArtsyCraftsyTests.release.xcconfig"; sourceTree = "<group>"; };
 		9A48E3A056FD55AB4DBA5E05 /* Pods-ArtsyCraftsyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsyCraftsyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtsyCraftsyUITests/Pods-ArtsyCraftsyUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -192,10 +208,19 @@
 				54D63A331DCBC4CB002ED6E6 /* MenuTableViewController.m */,
 				54D63A351DCBC6AA002ED6E6 /* FeedsViewController.h */,
 				54D63A361DCBC6AA002ED6E6 /* FeedsViewController.m */,
+				54EBF5791DCC821F00CD9EE8 /* FeedsCollectionViewController.h */,
+				54EBF57A1DCC821F00CD9EE8 /* FeedsCollectionViewController.m */,
+				54EBF58B1DCCDC4500CD9EE8 /* UploadViewController.h */,
+				54EBF58C1DCCDC4500CD9EE8 /* UploadViewController.m */,
+				54EBF57C1DCCACD400CD9EE8 /* feeds.png */,
 				54D63A1D1DCA40E9002ED6E6 /* back.png */,
 				54D63A211DCA491F002ED6E6 /* password.ico */,
 				54D63A1F1DCA48B1002ED6E6 /* email.png */,
+				54EBF5901DCF71C500CD9EE8 /* LoginMain.jpg */,
+				54EBF5921DCF72D900CD9EE8 /* backgroundmy4.jpg */,
+				54EBF5941DCF74A700CD9EE8 /* background-learner.jpg */,
 				549E8D1F1DC7DB1200A4F2E1 /* Main.storyboard */,
+				54EBF58E1DCF718600CD9EE8 /* LoginCompositeBackground.png */,
 				54D639F91DC9D887002ED6E6 /* mybgnew1.jpg */,
 				54D639FA1DC9D887002ED6E6 /* mybgnew2.jpg */,
 				54D63A081DC9D91E002ED6E6 /* mybgnew9.jpg */,
@@ -339,7 +364,6 @@
 				TargetAttributes = {
 					549E8D121DC7DB1200A4F2E1 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = UX8S7P85XB;
 						SystemCapabilities = {
 							com.apple.Keychain = {
 								enabled = 1;
@@ -382,7 +406,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				54D63A051DC9D887002ED6E6 /* mybgnew6.jpeg in Resources */,
+				54EBF57D1DCCACD400CD9EE8 /* feeds.png in Resources */,
 				54D639E51DC9AFA5002ED6E6 /* password.png in Resources */,
+				54EBF58F1DCF718600CD9EE8 /* LoginCompositeBackground.png in Resources */,
 				54D63A1E1DCA40E9002ED6E6 /* back.png in Resources */,
 				549E8D291DC7DB1200A4F2E1 /* LaunchScreen.storyboard in Resources */,
 				54D63A011DC9D887002ED6E6 /* mybgnew2.jpg in Resources */,
@@ -392,10 +418,13 @@
 				54D63A041DC9D887002ED6E6 /* mybgnew5.jpg in Resources */,
 				5401514E1DC7E71C00CD7E69 /* mybg.jpg in Resources */,
 				549E8D211DC7DB1200A4F2E1 /* Main.storyboard in Resources */,
+				54EBF5951DCF74A700CD9EE8 /* background-learner.jpg in Resources */,
+				54EBF5911DCF71C500CD9EE8 /* LoginMain.jpg in Resources */,
 				54D639E31DC9AE29002ED6E6 /* email-logo4.png in Resources */,
 				5412BA211DC8C3A300C54681 /* GoogleService-Info.plist in Resources */,
 				54D63A061DC9D887002ED6E6 /* mybgnew7.jpeg in Resources */,
 				54D639E11DC94F1B002ED6E6 /* img_email_icon.png in Resources */,
+				54EBF5931DCF72D900CD9EE8 /* backgroundmy4.jpg in Resources */,
 				54D63A201DCA48B1002ED6E6 /* email.png in Resources */,
 				54D63A0A1DC9D91E002ED6E6 /* mybgnew9.jpg in Resources */,
 				54D63A031DC9D887002ED6E6 /* mybgnew4.jpg in Resources */,
@@ -562,7 +591,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				54D63A311DCBC2B8002ED6E6 /* SWRevealViewController.m in Sources */,
+				54EBF58D1DCCDC4500CD9EE8 /* UploadViewController.m in Sources */,
 				54D63A1C1DC9FC8B002ED6E6 /* SignupViewController.m in Sources */,
+				54EBF57B1DCC821F00CD9EE8 /* FeedsCollectionViewController.m in Sources */,
 				54D63A371DCBC6AA002ED6E6 /* FeedsViewController.m in Sources */,
 				5412BA051DC894E800C54681 /* LoginViewController.m in Sources */,
 				54D63A341DCBC4CB002ED6E6 /* MenuTableViewController.m in Sources */,
@@ -714,7 +745,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ArtsyCraftsy/ArtsyCraftsy.entitlements;
-				DEVELOPMENT_TEAM = UX8S7P85XB;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -735,7 +766,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ArtsyCraftsy/ArtsyCraftsy.entitlements;
-				DEVELOPMENT_TEAM = UX8S7P85XB;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

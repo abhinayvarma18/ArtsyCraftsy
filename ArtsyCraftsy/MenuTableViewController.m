@@ -32,7 +32,7 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     //return ([indexPath row]+2) * 20; // your dynamic height...
-    return 90;
+    return 93;
 }
 
 
@@ -113,6 +113,24 @@
             [self performSegueWithIdentifier:@"logout" sender:nil];
         }
     }
+    
 }
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    // Set the title of navigation bar by using the menu items
+    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+    UINavigationController *destViewController = (UINavigationController*)segue.destinationViewController;
+    destViewController.title = [[menuItems objectAtIndex:indexPath.row] capitalizedString];
+    
+    // Set the photo if it navigates to the PhotoView
+    if ([segue.identifier isEqualToString:@"showClassroom"]) {
+        UINavigationController *navController = segue.destinationViewController;
+        //ClassroomViewController *photoController = [navController childViewControllers].firstObject;
+//        NSString *photoFilename = [NSString stringWithFormat:@"%@_photo", [menuItems objectAtIndex:indexPath.row]];
+//        photoController.photoFilename = photoFilename;
+    }
+}
+
 
 @end
