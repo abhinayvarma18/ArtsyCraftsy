@@ -267,6 +267,9 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.90768664710000002" green="0.90845612050000002" blue="0.81501370949999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <segue destination="H9w-ws-QLX" kind="custom" identifier="showFeeds" customClass="SWRevealViewControllerSeguePushController" id="qff-OO-qdB"/>
+                                </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Classroom" id="3kG-nM-Bq3">
                                 <rect key="frame" x="0.0" y="72" width="320" height="44"/>
@@ -457,17 +460,16 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <segue destination="5dk-Ux-Ok2" kind="show" identifier="logout" id="xhq-sJ-WmV"/>
-                        <segue destination="H9w-ws-QLX" kind="show" identifier="showFeeds" id="Hy4-UW-RQH"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o3b-hv-pX7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1552.5" y="613.73239436619724"/>
         </scene>
-        <!--View Controller-->
+        <!--Classroom View Controller-->
         <scene sceneID="mkv-3j-4pn">
             <objects>
-                <viewController id="3kW-Tp-RAw" sceneMemberID="viewController">
+                <viewController id="3kW-Tp-RAw" customClass="ClassroomViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6n2-fh-sYU"/>
                         <viewControllerLayoutGuide type="bottom" id="jUt-kK-zR9"/>
@@ -475,9 +477,13 @@
                     <view key="view" contentMode="scaleToFill" id="zmr-gK-V5A">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.5669981569340149" blue="0.38151371160312808" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="f1c-vq-UPw"/>
+                    <navigationItem key="navigationItem" id="f1c-vq-UPw">
+                        <barButtonItem key="leftBarButtonItem" image="menu.png" id="2jV-cr-qpn"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="sidebarButton" destination="2jV-cr-qpn" id="Ntm-DI-TOp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gVJ-Uy-zWd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -497,7 +503,7 @@
                         <color key="backgroundColor" red="0.39770107015482814" green="0.46456503139154937" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="z8d-3U-U6o">
-                        <barButtonItem key="leftBarButtonItem" systemItem="play" id="U3n-pm-YxI"/>
+                        <barButtonItem key="leftBarButtonItem" image="menu.png" id="U3n-pm-YxI"/>
                     </navigationItem>
                     <connections>
                         <outlet property="sidebarButton" destination="U3n-pm-YxI" id="Z2D-yy-NVS"/>
@@ -953,11 +959,12 @@
         <image name="back.png" width="500" height="500"/>
         <image name="background-learner.jpg" width="1400" height="800"/>
         <image name="email.png" width="512" height="512"/>
+        <image name="menu.png" width="22" height="22"/>
         <image name="mybgnew7.jpeg" width="168" height="300"/>
         <image name="password.ico" width="256" height="256"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Hy4-UW-RQH"/>
+        <segue reference="qff-OO-qdB"/>
         <segue reference="Cn6-jk-Oqu"/>
         <segue reference="xhq-sJ-WmV"/>
     </inferredMetricsTieBreakers>

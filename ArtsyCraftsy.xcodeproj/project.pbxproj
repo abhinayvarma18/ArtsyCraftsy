@@ -36,13 +36,16 @@
 		54D63A311DCBC2B8002ED6E6 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D63A301DCBC2B8002ED6E6 /* SWRevealViewController.m */; };
 		54D63A341DCBC4CB002ED6E6 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D63A331DCBC4CB002ED6E6 /* MenuTableViewController.m */; };
 		54D63A371DCBC6AA002ED6E6 /* FeedsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D63A361DCBC6AA002ED6E6 /* FeedsViewController.m */; };
-		54EBF57B1DCC821F00CD9EE8 /* FeedsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EBF57A1DCC821F00CD9EE8 /* FeedsCollectionViewController.m */; };
 		54EBF57D1DCCACD400CD9EE8 /* feeds.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EBF57C1DCCACD400CD9EE8 /* feeds.png */; };
 		54EBF58D1DCCDC4500CD9EE8 /* UploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EBF58C1DCCDC4500CD9EE8 /* UploadViewController.m */; };
 		54EBF58F1DCF718600CD9EE8 /* LoginCompositeBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EBF58E1DCF718600CD9EE8 /* LoginCompositeBackground.png */; };
 		54EBF5911DCF71C500CD9EE8 /* LoginMain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54EBF5901DCF71C500CD9EE8 /* LoginMain.jpg */; };
 		54EBF5931DCF72D900CD9EE8 /* backgroundmy4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54EBF5921DCF72D900CD9EE8 /* backgroundmy4.jpg */; };
 		54EBF5951DCF74A700CD9EE8 /* background-learner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54EBF5941DCF74A700CD9EE8 /* background-learner.jpg */; };
+		54EBF5991DCF810600CD9EE8 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EBF5961DCF810600CD9EE8 /* menu.png */; };
+		54EBF59A1DCF810600CD9EE8 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EBF5971DCF810600CD9EE8 /* menu@2x.png */; };
+		54EBF59B1DCF810600CD9EE8 /* menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EBF5981DCF810600CD9EE8 /* menu@3x.png */; };
+		54EBF59E1DCF820D00CD9EE8 /* ClassroomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EBF59D1DCF820D00CD9EE8 /* ClassroomViewController.m */; };
 		66DB67779F672AA6373D0730 /* Pods_ArtsyCraftsyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B996A98315751093C70A7415 /* Pods_ArtsyCraftsyTests.framework */; };
 		AA0FE445725710F6EBA9DE29 /* Pods_ArtsyCraftsy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA5C9EB4CC52353E04B82CB /* Pods_ArtsyCraftsy.framework */; };
 		D085BF3845B20A5ECE8E8C2C /* Pods_ArtsyCraftsyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8F0176B4DCEFBAEBE56817 /* Pods_ArtsyCraftsyUITests.framework */; };
@@ -114,8 +117,6 @@
 		54D63A331DCBC4CB002ED6E6 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
 		54D63A351DCBC6AA002ED6E6 /* FeedsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedsViewController.h; sourceTree = "<group>"; };
 		54D63A361DCBC6AA002ED6E6 /* FeedsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedsViewController.m; sourceTree = "<group>"; };
-		54EBF5791DCC821F00CD9EE8 /* FeedsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedsCollectionViewController.h; sourceTree = "<group>"; };
-		54EBF57A1DCC821F00CD9EE8 /* FeedsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedsCollectionViewController.m; sourceTree = "<group>"; };
 		54EBF57C1DCCACD400CD9EE8 /* feeds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feeds.png; sourceTree = "<group>"; };
 		54EBF58B1DCCDC4500CD9EE8 /* UploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadViewController.h; sourceTree = "<group>"; };
 		54EBF58C1DCCDC4500CD9EE8 /* UploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadViewController.m; sourceTree = "<group>"; };
@@ -123,6 +124,11 @@
 		54EBF5901DCF71C500CD9EE8 /* LoginMain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LoginMain.jpg; sourceTree = "<group>"; };
 		54EBF5921DCF72D900CD9EE8 /* backgroundmy4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundmy4.jpg; sourceTree = "<group>"; };
 		54EBF5941DCF74A700CD9EE8 /* background-learner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background-learner.jpg"; sourceTree = "<group>"; };
+		54EBF5961DCF810600CD9EE8 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		54EBF5971DCF810600CD9EE8 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		54EBF5981DCF810600CD9EE8 /* menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@3x.png"; sourceTree = "<group>"; };
+		54EBF59C1DCF820D00CD9EE8 /* ClassroomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassroomViewController.h; sourceTree = "<group>"; };
+		54EBF59D1DCF820D00CD9EE8 /* ClassroomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassroomViewController.m; sourceTree = "<group>"; };
 		55647C247A6D5A756B2DB5F5 /* Pods-ArtsyCraftsyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsyCraftsyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtsyCraftsyUITests/Pods-ArtsyCraftsyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7C1BEF6E32719A141023B9AB /* Pods-ArtsyCraftsyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsyCraftsyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtsyCraftsyTests/Pods-ArtsyCraftsyTests.release.xcconfig"; sourceTree = "<group>"; };
 		9A48E3A056FD55AB4DBA5E05 /* Pods-ArtsyCraftsyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsyCraftsyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtsyCraftsyUITests/Pods-ArtsyCraftsyUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -208,10 +214,11 @@
 				54D63A331DCBC4CB002ED6E6 /* MenuTableViewController.m */,
 				54D63A351DCBC6AA002ED6E6 /* FeedsViewController.h */,
 				54D63A361DCBC6AA002ED6E6 /* FeedsViewController.m */,
-				54EBF5791DCC821F00CD9EE8 /* FeedsCollectionViewController.h */,
-				54EBF57A1DCC821F00CD9EE8 /* FeedsCollectionViewController.m */,
 				54EBF58B1DCCDC4500CD9EE8 /* UploadViewController.h */,
 				54EBF58C1DCCDC4500CD9EE8 /* UploadViewController.m */,
+				54EBF5961DCF810600CD9EE8 /* menu.png */,
+				54EBF5971DCF810600CD9EE8 /* menu@2x.png */,
+				54EBF5981DCF810600CD9EE8 /* menu@3x.png */,
 				54EBF57C1DCCACD400CD9EE8 /* feeds.png */,
 				54D63A1D1DCA40E9002ED6E6 /* back.png */,
 				54D63A211DCA491F002ED6E6 /* password.ico */,
@@ -220,6 +227,8 @@
 				54EBF5921DCF72D900CD9EE8 /* backgroundmy4.jpg */,
 				54EBF5941DCF74A700CD9EE8 /* background-learner.jpg */,
 				549E8D1F1DC7DB1200A4F2E1 /* Main.storyboard */,
+				54EBF59C1DCF820D00CD9EE8 /* ClassroomViewController.h */,
+				54EBF59D1DCF820D00CD9EE8 /* ClassroomViewController.m */,
 				54EBF58E1DCF718600CD9EE8 /* LoginCompositeBackground.png */,
 				54D639F91DC9D887002ED6E6 /* mybgnew1.jpg */,
 				54D639FA1DC9D887002ED6E6 /* mybgnew2.jpg */,
@@ -407,12 +416,15 @@
 			files = (
 				54D63A051DC9D887002ED6E6 /* mybgnew6.jpeg in Resources */,
 				54EBF57D1DCCACD400CD9EE8 /* feeds.png in Resources */,
+				54EBF59A1DCF810600CD9EE8 /* menu@2x.png in Resources */,
 				54D639E51DC9AFA5002ED6E6 /* password.png in Resources */,
 				54EBF58F1DCF718600CD9EE8 /* LoginCompositeBackground.png in Resources */,
 				54D63A1E1DCA40E9002ED6E6 /* back.png in Resources */,
 				549E8D291DC7DB1200A4F2E1 /* LaunchScreen.storyboard in Resources */,
 				54D63A011DC9D887002ED6E6 /* mybgnew2.jpg in Resources */,
+				54EBF59B1DCF810600CD9EE8 /* menu@3x.png in Resources */,
 				54D63A001DC9D887002ED6E6 /* mybgnew1.jpg in Resources */,
+				54EBF5991DCF810600CD9EE8 /* menu.png in Resources */,
 				54D63A221DCA491F002ED6E6 /* password.ico in Resources */,
 				5412BA1B1DC8B23700C54681 /* artsy-4.jpg in Resources */,
 				54D63A041DC9D887002ED6E6 /* mybgnew5.jpg in Resources */,
@@ -593,13 +605,13 @@
 				54D63A311DCBC2B8002ED6E6 /* SWRevealViewController.m in Sources */,
 				54EBF58D1DCCDC4500CD9EE8 /* UploadViewController.m in Sources */,
 				54D63A1C1DC9FC8B002ED6E6 /* SignupViewController.m in Sources */,
-				54EBF57B1DCC821F00CD9EE8 /* FeedsCollectionViewController.m in Sources */,
 				54D63A371DCBC6AA002ED6E6 /* FeedsViewController.m in Sources */,
 				5412BA051DC894E800C54681 /* LoginViewController.m in Sources */,
 				54D63A341DCBC4CB002ED6E6 /* MenuTableViewController.m in Sources */,
 				549E8D241DC7DB1200A4F2E1 /* ArtsyCraftsy.xcdatamodeld in Sources */,
 				549E8D1B1DC7DB1200A4F2E1 /* AppDelegate.m in Sources */,
 				549E8D181DC7DB1200A4F2E1 /* main.m in Sources */,
+				54EBF59E1DCF820D00CD9EE8 /* ClassroomViewController.m in Sources */,
 				54047AF01DC9100500FD550E /* CheckLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
