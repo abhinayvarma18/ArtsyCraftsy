@@ -195,6 +195,7 @@
                             <constraint firstAttribute="trailing" secondItem="nLJ-cx-6KX" secondAttribute="trailing" id="ziD-Aj-ndL"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Icy-c7-Aw7"/>
                     <connections>
                         <outlet property="loginLabel" destination="rDJ-jO-fZS" id="4Uj-aj-pNN"/>
                         <outlet property="password" destination="hAR-9g-cIa" id="LAW-Fc-1Sg"/>
@@ -659,11 +660,11 @@
                                     </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="logout" id="dqM-dx-68F">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="logout" id="dqM-dx-68F">
                                 <rect key="frame" x="0.0" y="538" width="375" height="102"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dqM-dx-68F" id="wzo-69-LvQ">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="101"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="101"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Logout" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HHc-84-mOB">
@@ -681,6 +682,9 @@
                                         <constraint firstItem="HHc-84-mOB" firstAttribute="leading" secondItem="wzo-69-LvQ" secondAttribute="leading" constant="110" id="zjM-m8-OaV"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="5dk-Ux-Ok2" kind="modal" identifier="logout" id="FeR-if-aoM"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -1214,7 +1218,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="eNn-8W-xsb"/>
         <segue reference="YKz-GM-fJL"/>
-        <segue reference="nsa-aE-LiB"/>
-        <segue reference="NIm-52-u0j"/>
+        <segue reference="FeR-if-aoM"/>
+        <segue reference="qff-OO-qdB"/>
     </inferredMetricsTieBreakers>
 </document>
