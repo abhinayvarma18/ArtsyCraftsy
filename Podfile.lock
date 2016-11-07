@@ -1,16 +1,16 @@
 PODS:
-  - Firebase/AdMob (3.8.0):
+  - Firebase/AdMob (3.9.0):
     - Firebase/Core
-    - Google-Mobile-Ads-SDK (= 7.13.0)
-  - Firebase/Analytics (3.8.0):
+    - Google-Mobile-Ads-SDK (= 7.14.0)
+  - Firebase/Analytics (3.9.0):
     - Firebase/Core
-  - Firebase/Auth (3.8.0):
+  - Firebase/Auth (3.9.0):
     - Firebase/Core
     - FirebaseAuth (= 3.0.6)
-  - Firebase/Core (3.8.0):
+  - Firebase/Core (3.9.0):
     - FirebaseAnalytics (= 3.5.1)
     - FirebaseCore (= 3.4.4)
-  - Firebase/Database (3.8.0):
+  - Firebase/Database (3.9.0):
     - Firebase/Core
     - FirebaseDatabase (= 3.1.0)
   - FirebaseAnalytics (3.5.1):
@@ -29,7 +29,10 @@ PODS:
   - FirebaseDatabase (3.1.0):
     - FirebaseAnalytics (~> 3.4)
   - FirebaseInstanceID (1.0.8)
-  - Google-Mobile-Ads-SDK (7.13.0)
+  - FirebaseStorage (1.0.4):
+    - FirebaseAnalytics (~> 3.4)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - Google-Mobile-Ads-SDK (7.14.0)
   - GoogleAppUtilities (1.1.2):
     - GoogleSymbolUtilities (~> 1.1)
   - GoogleInterchangeUtilities (1.2.2):
@@ -64,16 +67,18 @@ DEPENDENCIES:
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
+  - FirebaseStorage
   - GoogleSignIn
 
 SPEC CHECKSUMS:
-  Firebase: fdbecadb7b5cbef2774852d4fa659b9daf11f2af
+  Firebase: ff77ffb77b317c3720fef57a60e9335cebf962e6
   FirebaseAnalytics: 6e58fc9b397664369ac7617fb0ba93fab6ba7b5b
   FirebaseAuth: 96e9674ff31d6e1f826d53e26aa003a57cab0295
   FirebaseCore: d0ed25f27b6f9158eccc439f1be6f92e81207e28
   FirebaseDatabase: 3ebb2edb6007c3f0f87b248f3fa212bde56a1468
   FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
-  Google-Mobile-Ads-SDK: b0cac2909229e8f13fb30e03537cdefbd7be28fa
+  FirebaseStorage: c50aa353bf484072704e73b4aff1bd47adb735c4
+  Google-Mobile-Ads-SDK: dbb0211c52ca02f72331b831ce4ccd218cf08748
   GoogleAppUtilities: a8a552aa74f6597f805e45b5a3962766c3134973
   GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
   GoogleSignIn: a8694c0a8e6d1b0ec77c58014de5bfd4ba2fa766
@@ -82,6 +87,6 @@ SPEC CHECKSUMS:
   GTMOAuth2: 7fc9c10f5c745f4d9850419ea88889fe3baa6b7d
   GTMSessionFetcher: a1f8ed39e4fe21c68957daed472c7afbcdf29166
 
-PODFILE CHECKSUM: 483c1d882583de15a500d7a606f969a4e6390d55
+PODFILE CHECKSUM: 9f5d3f407c12b5c4c5095167e5958504096a2ab3
 
 COCOAPODS: 1.1.1
