@@ -22,6 +22,16 @@
 }
 
 - (void)viewDidLoad {
+    
+//    UIImage *img = [UIImage imageNamed:@"mybgnew2.jpg"];
+//    CGDataProviderRef provider = CGImageGetDataProvider(img.CGImage);
+//    NSData *data = UIImageJPEGRepresentation(img,0);
+//    //NSData* data = (id)CFBridgingRelease(CGDataProviderCopyData(provider));
+//    NSString *stringForm = [data base64EncodedStringWithOptions:0];
+//    
+//    NSData *data1 = [[NSData alloc] initWithBase64EncodedString:stringForm options:0];
+//    UIImage *image = [UIImage imageWithData:data1];
+//    
     recipeImages = [NSArray arrayWithObjects:@"mybgnew2.jpg", @"mybgnew4.jpg", @"mybgnew2.jpg",@"mybgnew4.jpg",@"mybgnew7.jpeg",@"mybgnew4.jpg", @"mybgnew2.jpg", @"mybgnew7.jpeg",nil];
     [super viewDidLoad];
     SWRevealViewController *revealViewController = self.revealViewController;
@@ -42,7 +52,6 @@
             [stories  insertObject:[postDict objectForKey:obj] atIndex:i ];
             i++;
         }
-        NSArray *ss = stories[0];
         [self.collectionView reloadData];
         
         // ...
@@ -69,12 +78,21 @@
     
     UIImageView *recipeImageView = (UIImageView *)[cell viewWithTag:100];
     UILabel *title = (UILabel *)[cell viewWithTag:50];
+    UITextView *content = (UITextView *)[cell viewWithTag:200];
     NSInteger index = indexPath.row;
     if(stories != nil) {
         if(index < stories.count) {
-        NSDictionary *story = stories[indexPath.row];
-        title.text = [story objectForKey:@"text"];
+            NSDictionary *story = stories[indexPath.row];
+            title.text = [story objectForKey:@"storyName"];
+            title.textAlignment = NSTextAlignmentCenter;
+            NSString *imageName = [story objectForKey:@"storyImage"];
+            NSData *data = [[NSData alloc] initWithBase64EncodedString:imageName options:0];
+            UIImage *image = [UIImage imageWithData:data];
+            recipeImageView.image = image;
+            content.text = [story objectForKey:@"storyContent"];
+            content.textAlignment = NSTextAlignmentJustified;
         }
+        else {
 
 //        UIImage *image = [self blurredImageWithImage:[UIImage imageNamed:[recipeImages objectAtIndex:indexPath.row]]];
 //        recipeImageView.image = image;
@@ -101,6 +119,7 @@
 //            recipeImageView.backgroundColor = [UIColor blackColor];
 //        }
         recipeImageView.image = [UIImage imageNamed:[recipeImages objectAtIndex:indexPath.row]];
+        }
 //        recipeImageView.alpha = 0.5;
     }
 
