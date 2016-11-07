@@ -27,8 +27,6 @@
     
     // TODO(developer) Configure the sign-in button look/feel
     
-    [GIDSignIn sharedInstance].uiDelegate = self;
-    
     // Uncomment to automatically sign in the user.
     //[[GIDSignIn sharedInstance] signInSilently];
 
@@ -56,9 +54,9 @@
         self.progress.hidden = NO;
         
         //dispatch_semaphore_t sema = dispatch_semaphore_create(0);
-        NSString *user = [NSString stringWithFormat:@"%@", _userName.text];
+        NSString *userName = [NSString stringWithFormat:@"%@", _userName.text];
         NSString *pass = [NSString stringWithFormat:@"%@", _password.text];
-        [[FIRAuth auth] signInWithEmail:user password:pass completion:^(FIRUser * _Nullable user,NSError * _Nullable error) {
+        [[FIRAuth auth] signInWithEmail:userName password:pass completion:^(FIRUser * _Nullable user,NSError * _Nullable error) {
             if (error){
                UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Alert title" message:@"Unable to sign in" preferredStyle:UIAlertControllerStyleAlert];
                 
@@ -67,12 +65,17 @@
                 [self presentViewController:alertController animated:YES completion:nil];
                 
             } else {
-                [self performSegueWithIdentifier:@"qwe" sender:nil];
+                if([userName isEqualToString:@"abc@gmail.com"])
+                    [self performSegueWithIdentifier:@"admin" sender:nil];
+                else
+                    [self performSegueWithIdentifier:@"qwe" sender:nil];
             }
         }];
     }
-    else {
+    else if ([identifier isEqualToString:@"signup"]){
         return YES;
+    } else if([identifier isEqualToString:@"admin"]) {
+        
     }
     //dispatch_semaphore_wait(sema, DISPATCH_TIME_FOREVER);
     //NSLog(@"end");

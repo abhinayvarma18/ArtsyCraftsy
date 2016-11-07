@@ -26,7 +26,10 @@
     [[FIRAuth auth] addAuthStateDidChangeListener:^(FIRAuth *_Nonnull auth,FIRUser *_Nullable user) {
         if (user != nil) {
             // User is signed in.
-            [self performSegueWithIdentifier:@"alreadyloggedin" sender:nil];
+            if([[user email] isEqualToString:@"abc@gmail.com"])
+              [self performSegueWithIdentifier:@"alreadyAdminLogin" sender:nil];
+            else
+              [self performSegueWithIdentifier:@"alreadyloggedin" sender:nil];
         } else {
             [self performSegueWithIdentifier:@"login" sender:nil];
         }
