@@ -7,6 +7,7 @@
 //
 
 #import "AdminTableViewController.h"
+@import FirebaseAuth;
 
 @interface AdminTableViewController ()
 
@@ -47,6 +48,16 @@
     return cell;
 }
 
+- (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if(indexPath.row == 5) {
+        NSError *error;
+        [[FIRAuth auth] signOut:&error];
+        if (!error) {
+            [self performSegueWithIdentifier:@"logout" sender:nil];
+        }
+    }
+    
+}
 
 /*
 // Override to support conditional editing of the table view.
