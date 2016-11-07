@@ -17,6 +17,7 @@
 		549E8D291DC7DB1200A4F2E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549E8D271DC7DB1200A4F2E1 /* LaunchScreen.storyboard */; };
 		549E8D341DC7DB1200A4F2E1 /* ArtsyCraftsyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 549E8D331DC7DB1200A4F2E1 /* ArtsyCraftsyTests.m */; };
 		549E8D3F1DC7DB1200A4F2E1 /* ArtsyCraftsyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 549E8D3E1DC7DB1200A4F2E1 /* ArtsyCraftsyUITests.m */; };
+		54B6A5D71DD0A8AA006BA9FB /* AdminTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B6A5D61DD0A8AA006BA9FB /* AdminTableViewController.m */; };
 		54D639E51DC9AFA5002ED6E6 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D639E41DC9AFA5002ED6E6 /* password.png */; };
 		54D63A041DC9D887002ED6E6 /* mybgnew5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54D639FD1DC9D887002ED6E6 /* mybgnew5.jpg */; };
 		54D63A061DC9D887002ED6E6 /* mybgnew7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 54D639FF1DC9D887002ED6E6 /* mybgnew7.jpeg */; };
@@ -97,6 +98,8 @@
 		549E8D3E1DC7DB1200A4F2E1 /* ArtsyCraftsyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtsyCraftsyUITests.m; sourceTree = "<group>"; };
 		549E8D401DC7DB1200A4F2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54AEDB051DC8F72900F58185 /* ArtsyCraftsy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArtsyCraftsy.entitlements; sourceTree = "<group>"; };
+		54B6A5D51DD0A8AA006BA9FB /* AdminTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdminTableViewController.h; sourceTree = "<group>"; };
+		54B6A5D61DD0A8AA006BA9FB /* AdminTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdminTableViewController.m; sourceTree = "<group>"; };
 		54D639E41DC9AFA5002ED6E6 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
 		54D639FD1DC9D887002ED6E6 /* mybgnew5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mybgnew5.jpg; sourceTree = "<group>"; };
 		54D639FF1DC9D887002ED6E6 /* mybgnew7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mybgnew7.jpeg; sourceTree = "<group>"; };
@@ -224,6 +227,8 @@
 				54EBF58C1DCCDC4500CD9EE8 /* UploadViewController.m */,
 				54EBF59C1DCF820D00CD9EE8 /* ClassroomViewController.h */,
 				54EBF59D1DCF820D00CD9EE8 /* ClassroomViewController.m */,
+				54B6A5D51DD0A8AA006BA9FB /* AdminTableViewController.h */,
+				54B6A5D61DD0A8AA006BA9FB /* AdminTableViewController.m */,
 				549E8D1F1DC7DB1200A4F2E1 /* Main.storyboard */,
 				54EBF5B91DCFD86D00CD9EE8 /* classroom.jpg */,
 				54EBF5C11DCFD9E600CD9EE8 /* cart.png */,
@@ -615,6 +620,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54D63A311DCBC2B8002ED6E6 /* SWRevealViewController.m in Sources */,
+				54B6A5D71DD0A8AA006BA9FB /* AdminTableViewController.m in Sources */,
 				54EBF58D1DCCDC4500CD9EE8 /* UploadViewController.m in Sources */,
 				54D63A1C1DC9FC8B002ED6E6 /* SignupViewController.m in Sources */,
 				54D63A371DCBC6AA002ED6E6 /* FeedsViewController.m in Sources */,
