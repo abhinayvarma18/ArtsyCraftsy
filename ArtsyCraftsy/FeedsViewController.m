@@ -13,12 +13,19 @@
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 @property (strong, nonatomic) FIRDatabaseReference *ref;
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
+@property (weak, nonatomic) IBOutlet UIView *activityView;
+
 @end
 
 @implementation FeedsViewController
 {
     NSArray *recipeImages;
     NSMutableArray *stories;
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [_collectionView setAlpha:0.7];
+    [_activityView setHidden: NO];
 }
 
 - (void)viewDidLoad {
@@ -52,6 +59,9 @@
             [stories  insertObject:[postDict objectForKey:obj] atIndex:i ];
             i++;
         }
+        
+        [_activityView setHidden: YES];
+        [_collectionView setAlpha:1.0];
         [self.collectionView reloadData];
         
         // ...

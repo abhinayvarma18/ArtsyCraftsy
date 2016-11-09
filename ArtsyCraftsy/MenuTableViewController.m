@@ -32,7 +32,7 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     //return ([indexPath row]+2) * 20; // your dynamic height...
-    return 84;
+    return 88;
 }
 
 
