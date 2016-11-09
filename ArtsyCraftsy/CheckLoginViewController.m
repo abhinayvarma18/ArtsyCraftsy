@@ -24,8 +24,8 @@
 - (void) viewDidAppear:(BOOL)animated {
     [[FIRDatabase database] reference];
     [[FIRAuth auth] addAuthStateDidChangeListener:^(FIRAuth *_Nonnull auth,FIRUser *_Nullable user) {
-        user = nil;
         if (user != nil) {
+            
             // User is signed in.
             if([[user email] isEqualToString:@"abc@gmail.com"])
               [self performSegueWithIdentifier:@"alreadyAdminLogin" sender:nil];

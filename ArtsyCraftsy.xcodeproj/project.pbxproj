@@ -9,25 +9,11 @@
 /* Begin PBXBuildFile section */
 		010CA4CC1DCB7F5F00488671 /* StoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010CA4CB1DCB7F5F00488671 /* StoriesViewController.m */; settings = {ASSET_TAGS = (); }; };
 		010CA4D41DCDD98900488671 /* paper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 010CA4D31DCDD98900488671 /* paper.jpg */; settings = {ASSET_TAGS = (); }; };
-		010CA4D61DCE038B00488671 /* logout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 010CA4D51DCE038B00488671 /* logout.jpg */; settings = {ASSET_TAGS = (); }; };
-		010CA4D81DCE38FF00488671 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 010CA4D71DCE38FF00488671 /* menu.png */; settings = {ASSET_TAGS = (); }; };
-		010CA4E61DCE3A9700488671 /* bookmark_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 010CA4D91DCE3A9700488671 /* bookmark_photo.jpg */; settings = {ASSET_TAGS = (); }; };
-		010CA4E71DCE3A9700488671 /* bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 010CA4DA1DCE3A9700488671 /* bookmark.png */; settings = {ASSET_TAGS = (); }; };
 		010CA4E81DCE3A9700488671 /* calendar_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 010CA4DB1DCE3A9700488671 /* calendar_photo.jpg */; settings = {ASSET_TAGS = (); }; };
 		010CA4E91DCE3A9700488671 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 010CA4DC1DCE3A9700488671 /* calendar.png */; settings = {ASSET_TAGS = (); }; };
-		010CA4EA1DCE3A9700488671 /* comments_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 010CA4DD1DCE3A9700488671 /* comments_photo.jpg */; settings = {ASSET_TAGS = (); }; };
-		010CA4EB1DCE3A9700488671 /* comments.png in Resources */ = {isa = PBXBuildFile; fileRef = 010CA4DE1DCE3A9700488671 /* comments.png */; settings = {ASSET_TAGS = (); }; };
-		010CA4EC1DCE3A9700488671 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 010CA4DF1DCE3A9700488671 /* menu@2x.png */; settings = {ASSET_TAGS = (); }; };
-		010CA4ED1DCE3A9700488671 /* news.png in Resources */ = {isa = PBXBuildFile; fileRef = 010CA4E01DCE3A9700488671 /* news.png */; settings = {ASSET_TAGS = (); }; };
-		010CA4EE1DCE3A9700488671 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 010CA4E11DCE3A9700488671 /* photo.png */; settings = {ASSET_TAGS = (); }; };
-		010CA4EF1DCE3A9700488671 /* tag_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 010CA4E21DCE3A9700488671 /* tag_photo.jpg */; settings = {ASSET_TAGS = (); }; };
-		010CA4F01DCE3A9700488671 /* tag.png in Resources */ = {isa = PBXBuildFile; fileRef = 010CA4E31DCE3A9700488671 /* tag.png */; settings = {ASSET_TAGS = (); }; };
-		010CA4F11DCE3A9700488671 /* wishlist_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 010CA4E41DCE3A9700488671 /* wishlist_photo.jpg */; settings = {ASSET_TAGS = (); }; };
-		010CA4F21DCE3A9700488671 /* wishlist.png in Resources */ = {isa = PBXBuildFile; fileRef = 010CA4E51DCE3A9700488671 /* wishlist.png */; settings = {ASSET_TAGS = (); }; };
-		5401514E1DC7E71C00CD7E69 /* mybg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5401514D1DC7E71C00CD7E69 /* mybg.jpg */; };
+		01C84FE41DD20EA500C00754 /* StoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C84FE31DD20EA500C00754 /* StoryViewController.m */; settings = {ASSET_TAGS = (); }; };
 		54047AF01DC9100500FD550E /* CheckLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54047AEF1DC9100500FD550E /* CheckLoginViewController.m */; };
 		5412BA051DC894E800C54681 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5412BA041DC894E800C54681 /* LoginViewController.m */; };
-		5412BA1B1DC8B23700C54681 /* artsy-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5412BA1A1DC8B23700C54681 /* artsy-4.jpg */; };
 		5412BA211DC8C3A300C54681 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5412BA201DC8C3A300C54681 /* GoogleService-Info.plist */; };
 		549E8D181DC7DB1200A4F2E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 549E8D171DC7DB1200A4F2E1 /* main.m */; };
 		549E8D1B1DC7DB1200A4F2E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 549E8D1A1DC7DB1200A4F2E1 /* AppDelegate.m */; };
@@ -36,8 +22,6 @@
 		549E8D291DC7DB1200A4F2E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549E8D271DC7DB1200A4F2E1 /* LaunchScreen.storyboard */; };
 		549E8D341DC7DB1200A4F2E1 /* ArtsyCraftsyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 549E8D331DC7DB1200A4F2E1 /* ArtsyCraftsyTests.m */; };
 		549E8D3F1DC7DB1200A4F2E1 /* ArtsyCraftsyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 549E8D3E1DC7DB1200A4F2E1 /* ArtsyCraftsyUITests.m */; };
-		54D639E11DC94F1B002ED6E6 /* img_email_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D639E01DC94F1B002ED6E6 /* img_email_icon.png */; };
-		54D639E31DC9AE29002ED6E6 /* email-logo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D639E21DC9AE29002ED6E6 /* email-logo4.png */; };
 		54B6A5D71DD0A8AA006BA9FB /* AdminTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B6A5D61DD0A8AA006BA9FB /* AdminTableViewController.m */; };
 		54B6A5DB1DD0BF62006BA9FB /* teacher-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54B6A5D81DD0BF62006BA9FB /* teacher-1.jpg */; };
 		54B6A5DC1DD0BF62006BA9FB /* teacher2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54B6A5D91DD0BF62006BA9FB /* teacher2.jpg */; };
@@ -115,6 +99,8 @@
 		010CA4E31DCE3A9700488671 /* tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag.png; sourceTree = "<group>"; };
 		010CA4E41DCE3A9700488671 /* wishlist_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wishlist_photo.jpg; sourceTree = "<group>"; };
 		010CA4E51DCE3A9700488671 /* wishlist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wishlist.png; sourceTree = "<group>"; };
+		01C84FE21DD20EA500C00754 /* StoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryViewController.h; sourceTree = "<group>"; };
+		01C84FE31DD20EA500C00754 /* StoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryViewController.m; sourceTree = "<group>"; };
 		13011C72DB349EE032610C5F /* Pods-ArtsyCraftsy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsyCraftsy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtsyCraftsy/Pods-ArtsyCraftsy.debug.xcconfig"; sourceTree = "<group>"; };
 		1D8F0176B4DCEFBAEBE56817 /* Pods_ArtsyCraftsyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtsyCraftsyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA5C9EB4CC52353E04B82CB /* Pods_ArtsyCraftsy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtsyCraftsy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -279,6 +265,8 @@
 				54D63A2E1DCBC298002ED6E6 /* SWRevealViewController */,
 				54AEDB051DC8F72900F58185 /* ArtsyCraftsy.entitlements */,
 				549E8D191DC7DB1200A4F2E1 /* AppDelegate.h */,
+				01C84FE21DD20EA500C00754 /* StoryViewController.h */,
+				01C84FE31DD20EA500C00754 /* StoryViewController.m */,
 				549E8D1A1DC7DB1200A4F2E1 /* AppDelegate.m */,
 				54047AEE1DC9100500FD550E /* CheckLoginViewController.h */,
 				54047AEF1DC9100500FD550E /* CheckLoginViewController.m */,
@@ -707,6 +695,7 @@
 				5412BA051DC894E800C54681 /* LoginViewController.m in Sources */,
 				54D63A341DCBC4CB002ED6E6 /* MenuTableViewController.m in Sources */,
 				549E8D241DC7DB1200A4F2E1 /* ArtsyCraftsy.xcdatamodeld in Sources */,
+				01C84FE41DD20EA500C00754 /* StoryViewController.m in Sources */,
 				549E8D1B1DC7DB1200A4F2E1 /* AppDelegate.m in Sources */,
 				010CA4CC1DCB7F5F00488671 /* StoriesViewController.m in Sources */,
 				549E8D181DC7DB1200A4F2E1 /* main.m in Sources */,
@@ -898,6 +887,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ArtsyCraftsyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = abhi.ArtsyCraftsyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -911,6 +901,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ArtsyCraftsyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = abhi.ArtsyCraftsyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -923,6 +914,7 @@
 			baseConfigurationReference = 9A48E3A056FD55AB4DBA5E05 /* Pods-ArtsyCraftsyUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ArtsyCraftsyUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = abhi.ArtsyCraftsyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -935,6 +927,7 @@
 			baseConfigurationReference = 55647C247A6D5A756B2DB5F5 /* Pods-ArtsyCraftsyUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ArtsyCraftsyUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = abhi.ArtsyCraftsyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
