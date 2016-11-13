@@ -27,6 +27,33 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGRect paperRect = self.view.bounds;
+    UIColor * separatorColor = [UIColor colorWithRed:208.0/255.0 green:208.0/255.0 blue:208.0/255.0 alpha:1.0];
+    CGPoint startPoint = CGPointMake(paperRect.origin.x, paperRect.origin.y + paperRect.size.height - 1);
+    CGPoint endPoint = CGPointMake(paperRect.origin.x + paperRect.size.width - 1, paperRect.origin.y + paperRect.size.height - 1);
+    CGContextSaveGState(context);
+    CGContextSetLineCap(context, kCGLineCapSquare);
+    CGContextSetStrokeColorWithColor(context, separatorColor.CGColor);
+    CGContextSetLineWidth(context, 1.0);
+    CGContextMoveToPoint(context, startPoint.x + 0.5, startPoint.y + 0.5);
+    CGContextAddLineToPoint(context, endPoint.x + 0.5, endPoint.y + 0.5);
+    CGContextStrokePath(context);
+    CGContextRestoreGState(context);
+    
+    
+    
+    
+    CGRect strokeRect = paperRect;
+    strokeRect.size.height -= 1;
+    strokeRect = CGRectMake(strokeRect.origin.x + 0.5, strokeRect.origin.y + 0.5, strokeRect.size.width - 1, strokeRect.size.height - 1);
+    UIColor * whiteColor = [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0];
+    CGContextSetStrokeColorWithColor(context, whiteColor.CGColor);
+    // END NEW
+    
+    CGContextSetLineWidth(context, 1.0);
+    CGContextStrokeRect(context, strokeRect);
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath

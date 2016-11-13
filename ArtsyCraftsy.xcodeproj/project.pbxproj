@@ -19,6 +19,12 @@
 		5452372F1DD3619700FDBBC2 /* playingChild.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5452372E1DD3619700FDBBC2 /* playingChild.jpg */; };
 		545237311DD36DC800FDBBC2 /* email-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 545237301DD36DC800FDBBC2 /* email-circle.png */; };
 		545237331DD36DE300FDBBC2 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 545237321DD36DE300FDBBC2 /* password.png */; };
+		545237351DD3945400FDBBC2 /* kidagain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545237341DD3945400FDBBC2 /* kidagain.jpg */; };
+		545237371DD394F200FDBBC2 /* playingChild2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545237361DD394F200FDBBC2 /* playingChild2.jpg */; };
+		545237391DD39B1000FDBBC2 /* playingChild3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545237381DD39B1000FDBBC2 /* playingChild3.jpg */; };
+		5452373B1DD3ACF100FDBBC2 /* ClassroomBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5452373A1DD3ACF100FDBBC2 /* ClassroomBack.jpg */; };
+		5452373F1DD3B21A00FDBBC2 /* art-me2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5452373E1DD3B21A00FDBBC2 /* art-me2.jpg */; };
+		549A73A11DD4AAF300C4A72E /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 549A73A01DD4AAF300C4A72E /* ball.png */; };
 		549E8D181DC7DB1200A4F2E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 549E8D171DC7DB1200A4F2E1 /* main.m */; };
 		549E8D1B1DC7DB1200A4F2E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 549E8D1A1DC7DB1200A4F2E1 /* AppDelegate.m */; };
 		549E8D211DC7DB1200A4F2E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549E8D1F1DC7DB1200A4F2E1 /* Main.storyboard */; };
@@ -115,6 +121,12 @@
 		5452372E1DD3619700FDBBC2 /* playingChild.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = playingChild.jpg; sourceTree = "<group>"; };
 		545237301DD36DC800FDBBC2 /* email-circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email-circle.png"; sourceTree = "<group>"; };
 		545237321DD36DE300FDBBC2 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
+		545237341DD3945400FDBBC2 /* kidagain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kidagain.jpg; sourceTree = "<group>"; };
+		545237361DD394F200FDBBC2 /* playingChild2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = playingChild2.jpg; sourceTree = "<group>"; };
+		545237381DD39B1000FDBBC2 /* playingChild3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = playingChild3.jpg; sourceTree = "<group>"; };
+		5452373A1DD3ACF100FDBBC2 /* ClassroomBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ClassroomBack.jpg; sourceTree = "<group>"; };
+		5452373E1DD3B21A00FDBBC2 /* art-me2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "art-me2.jpg"; sourceTree = "<group>"; };
+		549A73A01DD4AAF300C4A72E /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 		549E8D131DC7DB1200A4F2E1 /* ArtsyCraftsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtsyCraftsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		549E8D171DC7DB1200A4F2E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		549E8D191DC7DB1200A4F2E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -286,8 +298,14 @@
 				54B6A5D51DD0A8AA006BA9FB /* AdminTableViewController.h */,
 				54B6A5D61DD0A8AA006BA9FB /* AdminTableViewController.m */,
 				549E8D1F1DC7DB1200A4F2E1 /* Main.storyboard */,
+				549A73A01DD4AAF300C4A72E /* ball.png */,
 				5452372A1DD33CE300FDBBC2 /* artsycraftsy.jpg */,
+				5452373E1DD3B21A00FDBBC2 /* art-me2.jpg */,
+				545237381DD39B1000FDBBC2 /* playingChild3.jpg */,
+				5452373A1DD3ACF100FDBBC2 /* ClassroomBack.jpg */,
 				5452372C1DD35E4C00FDBBC2 /* FotorCreated.jpg */,
+				545237361DD394F200FDBBC2 /* playingChild2.jpg */,
+				545237341DD3945400FDBBC2 /* kidagain.jpg */,
 				54EBF5B91DCFD86D00CD9EE8 /* classroom.jpg */,
 				54B6A5D81DD0BF62006BA9FB /* teacher-1.jpg */,
 				54B6A5D91DD0BF62006BA9FB /* teacher2.jpg */,
@@ -492,6 +510,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54EBF59A1DCF810600CD9EE8 /* menu@2x.png in Resources */,
+				545237351DD3945400FDBBC2 /* kidagain.jpg in Resources */,
 				54EBF5AE1DCFB0A400CD9EE8 /* images(1).jpg in Resources */,
 				5452372B1DD33CE300FDBBC2 /* artsycraftsy.jpg in Resources */,
 				54EBF5AA1DCFACF100CD9EE8 /* images.jpeg in Resources */,
@@ -504,6 +523,7 @@
 				54EBF58F1DCF718600CD9EE8 /* LoginCompositeBackground.png in Resources */,
 				54EBF5A61DCFA3CC00CD9EE8 /* cooltext214325258707263.png in Resources */,
 				54B6A5DD1DD0BF62006BA9FB /* teacher3.jpg in Resources */,
+				5452373F1DD3B21A00FDBBC2 /* art-me2.jpg in Resources */,
 				54D63A1E1DCA40E9002ED6E6 /* back.png in Resources */,
 				010CA4E81DCE3A9700488671 /* calendar_photo.jpg in Resources */,
 				549E8D291DC7DB1200A4F2E1 /* LaunchScreen.storyboard in Resources */,
@@ -511,6 +531,7 @@
 				54EBF59B1DCF810600CD9EE8 /* menu@3x.png in Resources */,
 				54EBF5991DCF810600CD9EE8 /* menu.png in Resources */,
 				54EBF5BC1DCFD8E000CD9EE8 /* products.png in Resources */,
+				549A73A11DD4AAF300C4A72E /* ball.png in Resources */,
 				54D63A041DC9D887002ED6E6 /* mybgnew5.jpg in Resources */,
 				549E8D211DC7DB1200A4F2E1 /* Main.storyboard in Resources */,
 				54EBF5B81DCFD82700CD9EE8 /* feeds.png in Resources */,
@@ -521,10 +542,13 @@
 				010CA4D41DCDD98900488671 /* paper.jpg in Resources */,
 				54D63A061DC9D887002ED6E6 /* mybgnew7.jpeg in Resources */,
 				54EBF5B61DCFCA9D00CD9EE8 /* profileUpload.gif in Resources */,
+				5452373B1DD3ACF100FDBBC2 /* ClassroomBack.jpg in Resources */,
 				54EBF5931DCF72D900CD9EE8 /* backgroundmy4.jpg in Resources */,
 				54B6A5DC1DD0BF62006BA9FB /* teacher2.jpg in Resources */,
 				54EBF5A81DCFA92800CD9EE8 /* cooltext214327983556379.png in Resources */,
 				54B6A5DB1DD0BF62006BA9FB /* teacher-1.jpg in Resources */,
+				545237391DD39B1000FDBBC2 /* playingChild3.jpg in Resources */,
+				545237371DD394F200FDBBC2 /* playingChild2.jpg in Resources */,
 				54EBF5BA1DCFD86D00CD9EE8 /* classroom.jpg in Resources */,
 				54D63A201DCA48B1002ED6E6 /* email.png in Resources */,
 				54EBF5A41DCF90D400CD9EE8 /* baloons.png in Resources */,
